@@ -1,2 +1,10 @@
 # Set of documents, presentations, posters, and webpages about Unidata, the CDM, and NetCDF Java
+######################
 latest_stable/docs
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
