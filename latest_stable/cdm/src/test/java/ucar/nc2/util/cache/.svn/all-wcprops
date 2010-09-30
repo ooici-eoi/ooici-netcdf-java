@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/util/cache
+END
+TestAggCleanup.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/util/cache/TestAggCleanup.java
+END
+TestFileCacheConcurrent.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/util/cache/TestFileCacheConcurrent.java
+END
+TestNetcdfFileCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/util/cache/TestNetcdfFileCache.java
+END

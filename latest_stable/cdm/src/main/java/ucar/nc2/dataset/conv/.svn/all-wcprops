@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv
+END
+MADISStation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/MADISStation.java
+END
+WRFConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/WRFConvention.java
+END
+BUFRConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/BUFRConvention.java
+END
+Cosmic1Convention.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/Cosmic1Convention.java
+END
+IFPSConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/IFPSConvention.java
+END
+ZebraConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/ZebraConvention.java
+END
+CEDRICRadarConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/CEDRICRadarConvention.java
+END
+M3IOConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/M3IOConvention.java
+END
+M3IOVGGridConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/M3IOVGGridConvention.java
+END
+ModisSatellite.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/ModisSatellite.java
+END
+AvhrrConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/AvhrrConvention.java
+END
+CSMConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/CSMConvention.java
+END
+AWIPSConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/AWIPSConvention.java
+END
+DefaultConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/DefaultConvention.java
+END
+NsslRadarMosaicConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/NsslRadarMosaicConvention.java
+END
+UnidataObsConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/UnidataObsConvention.java
+END
+Jason2Convention.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/Jason2Convention.java
+END
+NppConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/NppConvention.java
+END
+IridlConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/IridlConvention.java
+END
+FslWindProfiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/FslWindProfiler.java
+END
+ADASConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/ADASConvention.java
+END
+CF1Convention.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/CF1Convention.java
+END
+EpicInsitu.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/EpicInsitu.java
+END
+GIEFConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/GIEFConvention.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/package.html
+END
+COARDSConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/COARDSConvention.java
+END
+NUWGConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/NUWGConvention.java
+END
+GDVConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/GDVConvention.java
+END
+ATDRadarConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/ATDRadarConvention.java
+END
+Suomi.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/Suomi.java
+END
+Nimbus.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/Nimbus.java
+END
+AWIPSsatConvention.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/conv/AWIPSsatConvention.java
+END

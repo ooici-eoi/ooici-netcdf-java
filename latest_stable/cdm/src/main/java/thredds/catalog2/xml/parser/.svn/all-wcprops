@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser
+END
+ThreddsXmlParserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/ThreddsXmlParserFactory.java
+END
+ThreddsXmlParserIssue.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/ThreddsXmlParserIssue.java
+END
+ThreddsXmlParserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/ThreddsXmlParserException.java
+END
+ThreddsXmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/ThreddsXmlParser.java
+END

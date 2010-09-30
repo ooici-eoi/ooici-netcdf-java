@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/image
+END
+ImageDatasetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/image/ImageDatasetFactory.java
+END
+ImageArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/image/ImageArrayAdapter.java
+END
+ImageFactoryRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/image/ImageFactoryRandom.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2
+END
+TestGrib2Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/TestGrib2Data.java
+END
+TestGrib2GetData.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/TestGrib2GetData.java
+END
+Grib2TablesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/Grib2TablesTest.java
+END
+TestGrib2Edition.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/TestGrib2Edition.java
+END
+TestGrib2Indexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/TestGrib2Indexer.java
+END
+TestGrib2Dump.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/grib2/TestGrib2Dump.java
+END

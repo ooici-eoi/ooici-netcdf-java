@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image
+END
+Tiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/Tiler.java
+END
+DataBlk.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/DataBlk.java
+END
+Coord.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/Coord.java
+END
+ImgData.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/ImgData.java
+END
+DataBlkByte.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/DataBlkByte.java
+END
+BlkImgDataSrc.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/BlkImgDataSrc.java
+END
+ImgDataAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/ImgDataAdapter.java
+END
+CompTransfSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/CompTransfSpec.java
+END
+DataBlkFloat.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/DataBlkFloat.java
+END
+DataBlkInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/DataBlkInt.java
+END
+ImgDataJoiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/ImgDataJoiner.java
+END
+ImgDataConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/image/ImgDataConverter.java
+END

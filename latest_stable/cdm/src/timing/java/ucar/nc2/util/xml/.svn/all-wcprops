@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml
+END
+TestMetarEncoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/TestMetarEncoding.java
+END
+TimeBufr2Xml.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/TimeBufr2Xml.java
+END
+TimeJdomReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/TimeJdomReading.java
+END
+TimeStaxReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/TimeStaxReading.java
+END
+TimeStringParsing.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/TimeStringParsing.java
+END
+MetarField.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/util/xml/MetarField.java
+END

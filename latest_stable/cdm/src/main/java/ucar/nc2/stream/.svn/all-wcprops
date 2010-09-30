@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream
+END
+CdmRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/CdmRemote.java
+END
+NcStreamReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/NcStreamReader.java
+END
+NcStreamProto.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/NcStreamProto.java
+END
+CdmRemoteFeatureDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/CdmRemoteFeatureDataset.java
+END
+NcStreamIosp.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/NcStreamIosp.java
+END
+grammerOld.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/grammerOld.txt
+END
+grammer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/grammer.txt
+END
+NcStreamWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/NcStreamWriter.java
+END
+NcStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/NcStream.java
+END
+ncStream.proto
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/stream/ncStream.proto
+END

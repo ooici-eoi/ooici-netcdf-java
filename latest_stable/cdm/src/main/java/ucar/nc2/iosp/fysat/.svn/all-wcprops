@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat
+END
+FysatHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/FysatHeader.java
+END
+AwxFileFirstHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/AwxFileFirstHeader.java
+END
+Fysatiosp.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/Fysatiosp.java
+END
+AwxFileSecondHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/AwxFileSecondHeader.java
+END
+AwxFileGeoSatelliteSecondHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/AwxFileGeoSatelliteSecondHeader.java
+END
+AwxFileGridProductSecondHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/AwxFileGridProductSecondHeader.java
+END
+UnsupportedDatasetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/UnsupportedDatasetException.java
+END
+AwxFileGridProductExtendedPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/fysat/AwxFileGridProductExtendedPart.java
+END

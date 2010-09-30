@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis
+END
+AnWTFilterFloat.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilterFloat.java
+END
+ForwWTDataProps.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/ForwWTDataProps.java
+END
+CBlkWTDataFloat.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/CBlkWTDataFloat.java
+END
+AnWTFilterIntLift5x3.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilterIntLift5x3.java
+END
+ForwWTFull.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/ForwWTFull.java
+END
+ForwardWT.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/ForwardWT.java
+END
+AnWTFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilter.java
+END
+CBlkWTData.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/CBlkWTData.java
+END
+ForwWT.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/ForwWT.java
+END
+CBlkWTDataSrc.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/CBlkWTDataSrc.java
+END
+AnWTFilterSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilterSpec.java
+END
+AnWTFilterInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilterInt.java
+END
+CBlkWTDataInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/CBlkWTDataInt.java
+END
+AnWTFilterFloatLift9x7.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/AnWTFilterFloatLift9x7.java
+END
+SubbandAn.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/wavelet/analysis/SubbandAn.java
+END

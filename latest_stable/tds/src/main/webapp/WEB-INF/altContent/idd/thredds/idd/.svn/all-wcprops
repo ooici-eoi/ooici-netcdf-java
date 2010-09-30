@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd
+END
+modelsOld.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/modelsOld.xml
+END
+models.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/models.xml
+END
+satellite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/satellite.xml
+END
+newPointObs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/newPointObs.xml
+END
+newExamples.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/newExamples.xml
+END
+radars.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/radars.xml
+END
+obsData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/idd/obsData.xml
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer
+END
+CFPointObWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/CFPointObWriter.java
+END
+PointObVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/PointObVar.java
+END
+WriterCFPointDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/WriterCFPointDataset.java
+END
+FeatureDatasetPointXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/FeatureDatasetPointXML.java
+END
+WriterCFStationDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/WriterCFStationDataset.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/writer/package.html
+END

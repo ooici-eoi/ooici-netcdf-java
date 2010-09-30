@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid
+END
+ContourGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ContourGrid.java
+END
+VertPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/VertPanel.java
+END
+ContourLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ContourLine.java
+END
+GridUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/GridUI.java
+END
+ContourFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ContourFeature.java
+END
+WindRenderer.java.save
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/WindRenderer.java.save
+END
+ColorScale.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ColorScale.java
+END
+GridController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/GridController.java
+END
+VertScaleSlider.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/VertScaleSlider.java
+END
+ContourFeatureRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ContourFeatureRenderer.java
+END
+GridRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/GridRenderer.java
+END
+GridTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/GridTable.java
+END
+ColorScaleManager.java.save
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/ui/grid/ColorScaleManager.java.save
+END

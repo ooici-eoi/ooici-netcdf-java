@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis
+END
+GisFeatureRendererMulti.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/GisFeatureRendererMulti.java
+END
+MapBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/MapBean.java
+END
+SpatialGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/SpatialGrid.java
+END
+GisFeatureRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/GisFeatureRenderer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/package.html
+END

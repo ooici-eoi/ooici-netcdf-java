@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalogservice
+END
+validationError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalogservice/validationError.jsp
+END
+validationForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalogservice/validationForm.jsp
+END
+validationMessage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalogservice/validationMessage.jsp
+END

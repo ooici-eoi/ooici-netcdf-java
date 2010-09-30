@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2
+END
+TestStructureArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestStructureArray.java
+END
+TestMAType.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestMAType.java
+END
+TestArrayOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestArrayOps.java
+END
+TestSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestSection.java
+END
+TestString.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestString.java
+END
+TestMAMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestMAMath.java
+END
+TestGetPut.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestGetPut.java
+END
+TestStructureArrayMA.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestStructureArrayMA.java
+END
+TestMA2.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestMA2.java
+END
+TestMAVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestMAVector.java
+END
+TestJavaArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestJavaArray.java
+END
+TestTxCompose.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestTxCompose.java
+END
+TestMAMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestMAMatrix.java
+END
+TestStructureArrayW.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestStructureArrayW.java
+END
+TestIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestIterator.java
+END
+TestRank.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/ma2/TestRank.java
+END

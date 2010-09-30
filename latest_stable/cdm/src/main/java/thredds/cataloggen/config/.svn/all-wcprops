@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config
+END
+ResultService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/ResultService.java
+END
+DatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetSource.java
+END
+DodsFileServerDatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DodsFileServerDatasetSource.java
+END
+GrADSDataServerDatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/GrADSDataServerDatasetSource.java
+END
+DatasetSourceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetSourceType.java
+END
+DatasetNamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetNamer.java
+END
+DatasetNamerType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetNamerType.java
+END
+DodsDirDatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DodsDirDatasetSource.java
+END
+CatGenConfigMetadataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/CatGenConfigMetadataFactory.java
+END
+LocalDatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/LocalDatasetSource.java
+END
+CatalogRefInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/CatalogRefInfo.java
+END
+DatasetSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetSorter.java
+END
+DatasetSourceStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetSourceStructure.java
+END
+CatalogGenConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/CatalogGenConfig.java
+END
+DatasetFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/DatasetFilter.java
+END
+CatalogRefExpander.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/cataloggen/config/CatalogRefExpander.java
+END

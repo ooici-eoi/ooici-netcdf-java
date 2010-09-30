@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2
+END
+Grib2GetData.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2GetData.java
+END
+Grib2Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Data.java
+END
+Grib2Lookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Lookup.java
+END
+Grib2Tables.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Tables.java
+END
+Grib2IdentificationSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2IdentificationSection.java
+END
+Grib2ExtractRawData.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2ExtractRawData.java
+END
+Grib2ProductDefinitionSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2ProductDefinitionSection.java
+END
+Grib2Record.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Record.java
+END
+Grib2PDSVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2PDSVariables.java
+END
+Grib2Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Product.java
+END
+Grib2DataRepresentationSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2DataRepresentationSection.java
+END
+Grib2WriteIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2WriteIndex.java
+END
+Grib2GridDefinitionSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2GridDefinitionSection.java
+END
+Grib2GridTableLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2GridTableLookup.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Category.java
+END
+Grib2EndSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2EndSection.java
+END
+Grib2LocalUseSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2LocalUseSection.java
+END
+Discipline.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Discipline.java
+END
+Grib2Indexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Indexer.java
+END
+Grib2DataSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2DataSection.java
+END
+Grib2Input.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Input.java
+END
+Grib2BitMapSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2BitMapSection.java
+END
+Grib2IndicatorSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2IndicatorSection.java
+END
+ParameterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/ParameterTable.java
+END
+Grib2Dump.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2Dump.java
+END
+Grib2IndexExtender.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2IndexExtender.java
+END
+Grib2GDSVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/grib/grib2/Grib2GDSVariables.java
+END

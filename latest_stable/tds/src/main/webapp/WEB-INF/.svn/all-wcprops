@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/ehcache.xml
+END
+cdmRemote-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/cdmRemote-servlet.xml
+END
+root-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/root-servlet.xml
+END
+applicationContext-tdsConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/applicationContext-tdsConfig.xml
+END
+catalogGen-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/catalogGen-servlet.xml
+END
+wms-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/wms-servlet.xml
+END
+dqc-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/dqc-servlet.xml
+END
+ncOpendap-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/ncOpendap-servlet.xml
+END
+view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/view.xml
+END
+admin-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/admin-servlet.xml
+END
+catalogService-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/catalogService-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/web.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/log4j.xml
+END
+OGCMeta.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/OGCMeta.xml
+END

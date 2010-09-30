@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict
+END
+CAMSAuthorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/CAMSAuthorizer.java
+END
+RoleSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/RoleSource.java
+END
+CASAuthorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/CASAuthorizer.java
+END
+RestrictedDatasetServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/RestrictedDatasetServlet.java
+END
+TomcatAuthorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/TomcatAuthorizer.java
+END
+RoleDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/RoleDatabase.java
+END
+AuthorizerNoop.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/AuthorizerNoop.java
+END
+Authorizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/restrict/Authorizer.java
+END

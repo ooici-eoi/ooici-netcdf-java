@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/views
+END
+ToolsUI.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/views/ToolsUI.jnlp
+END
+idv.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/views/idv.jnlp
+END
+idvBundle.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/views/idvBundle.jnlp
+END

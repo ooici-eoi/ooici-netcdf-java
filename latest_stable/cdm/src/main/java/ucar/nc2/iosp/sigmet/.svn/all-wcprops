@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/sigmet
+END
+SigmetVolumeScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/sigmet/SigmetVolumeScan.java
+END
+Ray.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/sigmet/Ray.java
+END
+SigmetIOServiceProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/sigmet/SigmetIOServiceProvider.java
+END

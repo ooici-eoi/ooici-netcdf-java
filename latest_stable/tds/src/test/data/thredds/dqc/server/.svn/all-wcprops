@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server
+END
+configExampleEmpty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configExampleEmpty.xml
+END
+configWrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configWrite.xml
+END
+dqcLatestModelExample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/dqcLatestModelExample.xml
+END
+configWriteResults.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configWriteResults.xml
+END
+exampleDqc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/exampleDqc.xml
+END
+configExampleBad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configExampleBad.xml
+END
+configLatestModelExampleGood.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configLatestModelExampleGood.xml
+END
+configExampleGood.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/configExampleGood.xml
+END
+twoDFS-DQC.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/twoDFS-DQC.xml
+END
+uniRadarDqc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/uniRadarDqc.xml
+END

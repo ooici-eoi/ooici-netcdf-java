@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory
+END
+ARMTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/ARMTrajectoryObsDataset.java
+END
+SingleTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/SingleTrajectoryObsDataset.java
+END
+TrajectoryObsDatasetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/TrajectoryObsDatasetImpl.java
+END
+UnidataTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/UnidataTrajectoryObsDataset.java
+END
+Float10TrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/Float10TrajectoryObsDataset.java
+END
+TrajectoryObsDatasetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/TrajectoryObsDatasetFactory.java
+END
+UnidataTrajectoryObsDataset2.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/UnidataTrajectoryObsDataset2.java
+END
+RafTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/RafTrajectoryObsDataset.java
+END
+SimpleTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/SimpleTrajectoryObsDataset.java
+END
+ZebraClassTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/ZebraClassTrajectoryObsDataset.java
+END
+MultiTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/MultiTrajectoryObsDataset.java
+END
+COSMICTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/COSMICTrajectoryObsDataset.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/trajectory/package.html
+END

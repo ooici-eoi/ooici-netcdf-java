@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader
+END
+TagTreeDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/TagTreeDecoder.java
+END
+PktDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/PktDecoder.java
+END
+CBlkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/CBlkInfo.java
+END
+PktHeaderBitReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/PktHeaderBitReader.java
+END
+PktInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/PktInfo.java
+END
+BitstreamReaderAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/BitstreamReaderAgent.java
+END
+FileBitstreamReaderAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/FileBitstreamReaderAgent.java
+END
+HeaderDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/codestream/reader/HeaderDecoder.java
+END

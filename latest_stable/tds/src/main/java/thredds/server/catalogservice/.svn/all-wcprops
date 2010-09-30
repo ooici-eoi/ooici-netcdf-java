@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice
+END
+RemoteCatalogRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/RemoteCatalogRequest.java
+END
+LocalCatalogRequestValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/LocalCatalogRequestValidator.java
+END
+CommandEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/CommandEditor.java
+END
+RemoteCatalogRequestValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/RemoteCatalogRequestValidator.java
+END
+LocalCatalogServiceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/LocalCatalogServiceController.java
+END
+RemoteCatalogServiceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/RemoteCatalogServiceController.java
+END
+CatalogServiceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/CatalogServiceUtils.java
+END
+LocalCatalogRequestDataBinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/LocalCatalogRequestDataBinder.java
+END
+RemoteCatalogRequestDataBinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/RemoteCatalogRequestDataBinder.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/Command.java
+END
+LocalCatalogRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/catalogservice/LocalCatalogRequest.java
+END

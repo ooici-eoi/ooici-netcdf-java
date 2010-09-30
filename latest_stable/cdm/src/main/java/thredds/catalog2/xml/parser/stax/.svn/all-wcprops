@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax
+END
+ControlledVocabTypeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ControlledVocabTypeParser.java
+END
+ContributorElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ContributorElementParser.java
+END
+CatalogElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/CatalogElementParser.java
+END
+TimeCoverageElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/TimeCoverageElementParser.java
+END
+ElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ElementParser.java
+END
+MetadataElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/MetadataElementParser.java
+END
+PropertyElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/PropertyElementParser.java
+END
+DatasetElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/DatasetElementParser.java
+END
+StaxThreddsXmlParserUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/StaxThreddsXmlParserUtils.java
+END
+KeyphraseElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/KeyphraseElementParser.java
+END
+DatasetNodeElementParserHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/DatasetNodeElementParserHelper.java
+END
+GeospatialRangeTypeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/GeospatialRangeTypeParser.java
+END
+PublisherElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/PublisherElementParser.java
+END
+ThreddsMetadataElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ThreddsMetadataElementParser.java
+END
+CreatorElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/CreatorElementParser.java
+END
+ServiceElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ServiceElementParser.java
+END
+AccessElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/AccessElementParser.java
+END
+VariableGroupElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/VariableGroupElementParser.java
+END
+AbstractElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/AbstractElementParser.java
+END
+StaxThreddsXmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/StaxThreddsXmlParser.java
+END
+DateTypeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/DateTypeParser.java
+END
+ProjectElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/ProjectElementParser.java
+END
+CatalogRefElementParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/xml/parser/stax/CatalogRefElementParser.java
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt
+END
+VariableSimpleSubclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/VariableSimpleSubclass.java
+END
+TrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TrajectoryObsDataset.java
+END
+TypedDatasetFactoryIF.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TypedDatasetFactoryIF.java
+END
+StationImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationImpl.java
+END
+PointObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/PointObsDataset.java
+END
+StationRadialDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationRadialDataset.java
+END
+PointCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/PointCollection.java
+END
+RadialDatasetSweep.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/RadialDatasetSweep.java
+END
+StationRadarCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationRadarCollection.java
+END
+TypedDatasetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TypedDatasetImpl.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/package.html
+END
+GridDatatype.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/GridDatatype.java
+END
+GridCoordSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/GridCoordSystem.java
+END
+StationObsDatatype.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationObsDatatype.java
+END
+DataIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/DataIterator.java
+END
+TypedDatasetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TypedDatasetFactory.java
+END
+DataIteratorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/DataIteratorAdapter.java
+END
+DatatypeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/DatatypeIterator.java
+END
+TimeSeriesCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TimeSeriesCollection.java
+END
+TrajectoryObsDatatype.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TrajectoryObsDatatype.java
+END
+PointObsDatatype.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/PointObsDatatype.java
+END
+StationObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationObsDataset.java
+END
+GridDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/GridDataset.java
+END
+TypedDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/TypedDataset.java
+END
+StationCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dt/StationCollection.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder
+END
+PostCompRateAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/PostCompRateAllocator.java
+END
+CodedCBlkDataSrcEnc.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/CodedCBlkDataSrcEnc.java
+END
+BitToByteOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/BitToByteOutput.java
+END
+StdEntropyCoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/StdEntropyCoder.java
+END
+EBCOTLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/EBCOTLayer.java
+END
+EBCOTRateAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/EBCOTRateAllocator.java
+END
+CBlkRateDistStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/CBlkRateDistStats.java
+END
+MQCoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/MQCoder.java
+END
+LayersInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/LayersInfo.java
+END
+EntropyCoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/EntropyCoder.java
+END
+ByteOutputBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/entropy/encoder/ByteOutputBuffer.java
+END

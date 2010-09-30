@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml
+END
+TestOffAggDirDateFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggDirDateFormat.java
+END
+TestOffAggForecastModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggForecastModel.java
+END
+TestOffAggReadGridDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggReadGridDataset.java
+END
+TestAggPromote.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggPromote.java
+END
+TestOffAggFmrcGrib.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggFmrcGrib.java
+END
+TestNcMLcaching.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLcaching.java
+END
+TestAggUnion.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggUnion.java
+END
+TestValuesFromAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestValuesFromAttribute.java
+END
+TestNcMLoffsite.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLoffsite.java
+END
+TestAggExisting.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggExisting.java
+END
+TestOffAggFmrcNonuniform.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggFmrcNonuniform.java
+END
+TestOffAggExistingTimeUnitsChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggExistingTimeUnitsChange.java
+END
+TestOffAggFmrcMisc.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggFmrcMisc.java
+END
+TestOffAggDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggDirectory.java
+END
+TestAggExistingPromote.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggExistingPromote.java
+END
+TestOffExistingSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffExistingSync.java
+END
+TestOffAggFmrcNetcdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggFmrcNetcdf.java
+END
+TestNcMLReadOverride.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLReadOverride.java
+END
+TestNcMLRead.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLRead.java
+END
+TestOffAggUpdating.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggUpdating.java
+END
+TestNcMLRenameVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLRenameVar.java
+END
+TestOffNcMLWriteRead.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffNcMLWriteRead.java
+END
+TestAggExistingCoordVars.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggExistingCoordVars.java
+END
+TestNcMLModifyVars.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLModifyVars.java
+END
+TestAggSynGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggSynGrid.java
+END
+TestOffAggExistingSSTA.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggExistingSSTA.java
+END
+TestOffAggNewSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggNewSync.java
+END
+TestAggExistingCached.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggExistingCached.java
+END
+TestOffNcMLWriteReadwithCoords.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffNcMLWriteReadwithCoords.java
+END
+TestRemoteAggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestRemoteAggregation.java
+END
+TestNcMLequals.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLequals.java
+END
+TestAggModify.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggModify.java
+END
+TestAggMisc.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggMisc.java
+END
+TestAggTiled.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggTiled.java
+END
+TestAggUnionSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggUnionSimple.java
+END
+TestOffAggFmrcScan2.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestOffAggFmrcScan2.java
+END
+TestAggSynthetic.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestAggSynthetic.java
+END
+TestNcML.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcML.java
+END
+TestNcMLModifyAtts.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/ncml/TestNcMLModifyAtts.java
+END

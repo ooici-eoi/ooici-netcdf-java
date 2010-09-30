@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalog
+END
+dataset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalog/dataset.jsp
+END
+catalog.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/jsp/thredds/server/catalog/catalog.jsp
+END

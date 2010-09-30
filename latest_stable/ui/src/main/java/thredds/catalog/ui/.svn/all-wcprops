@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui
+END
+CatalogTreeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui/CatalogTreeView.java
+END
+ThreddsDatasetChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui/ThreddsDatasetChooser.java
+END
+CatalogFactoryCancellable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui/CatalogFactoryCancellable.java
+END
+CatalogChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui/CatalogChooser.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/catalog/ui/package.html
+END

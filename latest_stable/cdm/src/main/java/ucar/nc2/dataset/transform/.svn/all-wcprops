@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform
+END
+Stereographic.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/Stereographic.java
+END
+VAtmHybridHeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VAtmHybridHeight.java
+END
+LambertConformalConic.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/LambertConformalConic.java
+END
+UTM.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/UTM.java
+END
+LambertAzimuthal.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/LambertAzimuthal.java
+END
+MSGnavigation.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/MSGnavigation.java
+END
+AbstractCoordTransBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/AbstractCoordTransBuilder.java
+END
+FlatEarth.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/FlatEarth.java
+END
+VExplicitField.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VExplicitField.java
+END
+RotatedLatLon.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/RotatedLatLon.java
+END
+Mercator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/Mercator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/package.html
+END
+RotatedPole.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/RotatedPole.java
+END
+VAtmHybridSigmaPressure.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VAtmHybridSigmaPressure.java
+END
+VerticalPerspective.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VerticalPerspective.java
+END
+VOceanSG1.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VOceanSG1.java
+END
+VOceanSG2.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VOceanSG2.java
+END
+VAtmSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VAtmSigma.java
+END
+TransverseMercator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/TransverseMercator.java
+END
+Orthographic.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/Orthographic.java
+END
+AlbersEqualArea.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/AlbersEqualArea.java
+END
+VAtmLnPressure.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VAtmLnPressure.java
+END
+WRFEtaTransformBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/WRFEtaTransformBuilder.java
+END
+VOceanSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VOceanSigma.java
+END
+PolarStereographic.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/PolarStereographic.java
+END
+VOceanS.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/dataset/transform/VOceanS.java
+END

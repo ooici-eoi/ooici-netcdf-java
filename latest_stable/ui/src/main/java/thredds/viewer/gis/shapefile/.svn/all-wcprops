@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile
+END
+DbaseFieldDesc.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/DbaseFieldDesc.java
+END
+EsriShapefile.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/EsriShapefile.java
+END
+ShapeFileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/ShapeFileBean.java
+END
+DbaseData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/DbaseData.java
+END
+EsriShapefileRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/EsriShapefileRenderer.java
+END
+Swap.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/Swap.java
+END
+BeLeDataInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/BeLeDataInputStream.java
+END
+DbaseFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/DbaseFile.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/thredds/viewer/gis/shapefile/package.html
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wcs
+END
+WCSServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wcs/WCSServlet.java
+END
+VersionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wcs/VersionHandler.java
+END

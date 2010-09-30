@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl
+END
+ThreddsMetadataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/ThreddsMetadataImpl.java
+END
+MetadataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/MetadataImpl.java
+END
+ServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/ServiceImpl.java
+END
+AccessImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/AccessImpl.java
+END
+ServiceContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/ServiceContainer.java
+END
+GlobalServiceContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/GlobalServiceContainer.java
+END
+PropertyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/PropertyImpl.java
+END
+DatasetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/DatasetImpl.java
+END
+PropertyContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/PropertyContainer.java
+END
+CatalogRefImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/CatalogRefImpl.java
+END
+CatalogImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/CatalogImpl.java
+END
+DatasetNodeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/DatasetNodeImpl.java
+END
+DatasetNodeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/DatasetNodeContainer.java
+END
+ThreddsBuilderFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/catalog2/simpleImpl/ThreddsBuilderFactoryImpl.java
+END

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2
+END
+Structure.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Structure.java
+END
+VariableSimpleAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/VariableSimpleAdapter.java
+END
+NetcdfFileWriteable.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/NetcdfFileWriteable.java
+END
+NetcdfFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/NetcdfFile.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Attribute.java
+END
+VariableIF.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/VariableIF.java
+END
+ProxyReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ProxyReader.java
+END
+Sequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Sequence.java
+END
+FileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/FileWriter.java
+END
+NCdumpW.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/NCdumpW.java
+END
+ParsedSectionSpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ParsedSectionSpec.java
+END
+VariableSimpleIF.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/VariableSimpleIF.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/package.html
+END
+StructurePseudo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/StructurePseudo.java
+END
+SliceReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/SliceReader.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Variable.java
+END
+EnumTypedef.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/EnumTypedef.java
+END
+Dimension.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Dimension.java
+END
+NCdump.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/NCdump.java
+END
+SectionReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/SectionReader.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/Group.java
+END

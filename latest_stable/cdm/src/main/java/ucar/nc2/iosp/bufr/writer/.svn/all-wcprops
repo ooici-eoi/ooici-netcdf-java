@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer
+END
+Bufr2Xml.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/Bufr2Xml.java
+END
+WriteT41_ncRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/WriteT41_ncRect.java
+END
+WriteT42_ncRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/WriteT42_ncRect.java
+END
+BufrDataProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/BufrDataProcess.java
+END
+WriteT41_ncFlat.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/WriteT41_ncFlat.java
+END
+Write2ncRect.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/Write2ncRect.java
+END
+BufrDataDump.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/iosp/bufr/writer/BufrDataDump.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/dqc/server/jplQuikSCAT
+END
+TestJplQuikScatCalendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/dqc/server/jplQuikSCAT/TestJplQuikScatCalendar.java
+END
+TestJplQuikSCAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/dqc/server/jplQuikSCAT/TestJplQuikSCAT.java
+END
+TestJplQuikScatDodsFileServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/dqc/server/jplQuikSCAT/TestJplQuikScatDodsFileServer.java
+END

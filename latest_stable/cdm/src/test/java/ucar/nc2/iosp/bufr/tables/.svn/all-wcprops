@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/bufr/tables
+END
+CompareTableB.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/bufr/tables/CompareTableB.java
+END
+CompareTableD.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/bufr/tables/CompareTableD.java
+END
+CodeTableGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/bufr/tables/CodeTableGen.java
+END
+CompareCodeTables.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/bufr/tables/CompareCodeTables.java
+END

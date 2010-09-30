@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib
+END
+Parameters.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/Parameters.txt
+END
+CLASSPATH
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/CLASSPATH
+END
+run
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/run
+END
+Release_Notes
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/Release_Notes
+END
+IndexFormat.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/IndexFormat.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/build.xml
+END

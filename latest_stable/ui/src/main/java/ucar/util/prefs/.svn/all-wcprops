@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs
+END
+PreferencesExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs/PreferencesExt.java
+END
+Bean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs/Bean.java
+END
+PreferencesExtFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs/PreferencesExtFactory.java
+END
+XMLStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs/XMLStore.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/util/prefs/package.html
+END

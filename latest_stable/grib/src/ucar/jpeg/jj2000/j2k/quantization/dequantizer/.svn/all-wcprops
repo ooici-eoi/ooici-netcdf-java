@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer
+END
+DequantizerParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer/DequantizerParams.java
+END
+CBlkQuantDataSrcDec.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer/CBlkQuantDataSrcDec.java
+END
+StdDequantizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer/StdDequantizer.java
+END
+StdDequantizerParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer/StdDequantizerParams.java
+END
+Dequantizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/src/ucar/jpeg/jj2000/j2k/quantization/dequantizer/Dequantizer.java
+END

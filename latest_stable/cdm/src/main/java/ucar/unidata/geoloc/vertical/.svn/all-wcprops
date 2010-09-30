@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical
+END
+OceanSG1.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/OceanSG1.java
+END
+OceanSG2.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/OceanSG2.java
+END
+VTfromExistingData.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/VTfromExistingData.java
+END
+AtmosSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/AtmosSigma.java
+END
+VerticalTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/VerticalTransform.java
+END
+AtmosLnPressure.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/AtmosLnPressure.java
+END
+OceanSigma.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/OceanSigma.java
+END
+VerticalTransformImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/VerticalTransformImpl.java
+END
+OceanS.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/OceanS.java
+END
+WRFEta.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/WRFEta.java
+END
+HybridHeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/HybridHeight.java
+END
+HybridSigmaPressure.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/HybridSigmaPressure.java
+END
+VerticalTransformSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/VerticalTransformSubset.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/unidata/geoloc/vertical/package.html
+END

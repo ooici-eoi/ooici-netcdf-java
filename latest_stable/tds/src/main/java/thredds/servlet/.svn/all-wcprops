@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet
+END
+PathMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/PathMatcher.java
+END
+HtmlWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/HtmlWriter.java
+END
+DLwriterServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DLwriterServlet.java
+END
+Viewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/Viewer.java
+END
+URLEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/URLEncoder.java
+END
+DataServiceProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DataServiceProvider.java
+END
+DatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DatasetSource.java
+END
+UsageLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/UsageLog.java
+END
+DebugCommands.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DebugCommands.java
+END
+AbstractServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/AbstractServlet.java
+END
+FmrcInventoryServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/FmrcInventoryServlet.java
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/Annotation.java
+END
+TesterServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/TesterServlet.java
+END
+FileServerServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/FileServerServlet.java
+END
+DataRootHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DataRootHandler.java
+END
+AnnotateServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/AnnotateServlet.java
+END
+ViewServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/ViewServlet.java
+END
+ServletUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/ServletUtil.java
+END
+MyWebDavServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/MyWebDavServlet.java
+END
+DatasetHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DatasetHandler.java
+END
+ThreddsConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/ThreddsConfig.java
+END
+DebugHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/DebugHandler.java
+END
+Debug.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/Debug.java
+END
+RestrictedAccessConfigListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/RestrictedAccessConfigListener.java
+END
+ServletListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/servlet/ServletListener.java
+END

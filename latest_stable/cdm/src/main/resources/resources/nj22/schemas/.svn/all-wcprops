@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas
+END
+netcdf.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas/netcdf.xsd
+END
+netcdf-cs.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas/netcdf-cs.xsd
+END
+ncml-2.2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas/ncml-2.2.xsd
+END
+ncml.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas/ncml.xsd
+END
+netcdfDataset.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/schemas/netcdfDataset.xsd
+END

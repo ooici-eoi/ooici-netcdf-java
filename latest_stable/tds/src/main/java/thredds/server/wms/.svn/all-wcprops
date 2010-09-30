@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms
+END
+ThreddsScalarLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsScalarLayer.java
+END
+ThreddsMetadataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsMetadataController.java
+END
+ThreddsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsDataset.java
+END
+ThreddsWmsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsWmsController.java
+END
+ThreddsLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsLayer.java
+END
+ThreddsServerConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsServerConfig.java
+END
+Godiva2Viewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/Godiva2Viewer.java
+END
+ThreddsVectorLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/wms/ThreddsVectorLayer.java
+END

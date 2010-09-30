@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard
+END
+Join.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/Join.java
+END
+StandardPointFeatureIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardPointFeatureIterator.java
+END
+PointConfigXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/PointConfigXML.java
+END
+StandardStationCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardStationCollectionImpl.java
+END
+JoinParentIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/JoinParentIndex.java
+END
+Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/Evaluator.java
+END
+StandardTrajectoryCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardTrajectoryCollectionImpl.java
+END
+StandardPointCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardPointCollectionImpl.java
+END
+PointDatasetStandardFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/PointDatasetStandardFactory.java
+END
+CoordVarExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/CoordVarExtractor.java
+END
+TableConfigurer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/TableConfigurer.java
+END
+Cursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/Cursor.java
+END
+TableConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/TableConfig.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/package.html
+END
+StandardProfileCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardProfileCollectionImpl.java
+END
+FilterMissing.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/FilterMissing.java
+END
+StandardStationProfileCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardStationProfileCollectionImpl.java
+END
+StandardSectionCollectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/StandardSectionCollectionImpl.java
+END
+JoinMuiltdimStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/JoinMuiltdimStructure.java
+END
+Table.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/Table.java
+END
+CoordSysEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/CoordSysEvaluator.java
+END
+NestedTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/NestedTable.java
+END
+TableAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/TableAnalyzer.java
+END
+TableConfigurerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/TableConfigurerImpl.java
+END
+JoinArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/ucar/nc2/ft/point/standard/JoinArray.java
+END

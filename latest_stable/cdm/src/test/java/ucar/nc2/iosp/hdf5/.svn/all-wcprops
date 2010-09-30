@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5
+END
+TestH5compressed.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5compressed.java
+END
+TestH5subset.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5subset.java
+END
+TestCDL.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestCDL.java
+END
+TestH5npoess.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5npoess.java
+END
+TestH5Vlength.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5Vlength.java
+END
+TestH5ReadAndCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5ReadAndCount.java
+END
+TestH5ReadArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5ReadArray.java
+END
+TestH5read.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5read.java
+END
+TestH5ReadBasic.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5ReadBasic.java
+END
+TestH5ReadStructure2.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5ReadStructure2.java
+END
+TestH5.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5.java
+END
+TestN4.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestN4.java
+END
+TestH5filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5filter.java
+END
+TestH5eos.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5eos.java
+END
+TestH5aura.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5aura.java
+END
+TestChunkIndexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestChunkIndexer.java
+END
+TestH5ReadStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestH5ReadStructure.java
+END
+TestOddTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/iosp/hdf5/TestOddTypes.java
+END

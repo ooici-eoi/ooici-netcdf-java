@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/latest
+END
+testLatestConfig.exampleConfigOld.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/latest/testLatestConfig.exampleConfigOld.xml
+END
+testLatestConfig.exampleConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/data/thredds/dqc/server/latest/testLatestConfig.exampleConfig.xml
+END

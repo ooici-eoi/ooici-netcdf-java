@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing
+END
+PerformanceHarness.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/PerformanceHarness.java
+END
+PerformanceChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/PerformanceChecker.java
+END
+Average.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/Average.java
+END
+Example.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/Example.java
+END
+Stat.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/Stat.java
+END
+StatTimed.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/timing/StatTimed.java
+END

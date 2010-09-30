@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/license.txt
+END
+runDiff.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/runDiff.bat
+END
+Changes-2.2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/Changes-2.2.txt
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/CHANGES.txt
+END
+netCDFtools.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/netCDFtools.jnlp
+END
+README-dev.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/README-dev.txt
+END
+README.TEMPLATE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/README.TEMPLATE
+END
+jardiff-0.2-uber.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/jardiff-0.2-uber.jar
+END
+jdk1.4-logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/jdk1.4-logging.properties
+END
+runSrcRelease
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/runSrcRelease
+END
+runToolsUI.TEMPLATE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/runToolsUI.TEMPLATE
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/build.xml
+END

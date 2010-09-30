@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/cdmvalidator
+END
+CdmValidatorConfigContextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/cdmvalidator/CdmValidatorConfigContextListener.java
+END
+CdmValidatorController.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/cdmvalidator/CdmValidatorController.java
+END
+CdmValidatorContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/server/cdmvalidator/CdmValidatorContext.java
+END

@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1
+END
+measures.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/measures.xsd
+END
+deprecatedTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/deprecatedTypes.xsd
+END
+geometryAggregates.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/geometryAggregates.xsd
+END
+valueObjects.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/valueObjects.xsd
+END
+temporalReferenceSystems.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/temporalReferenceSystems.xsd
+END
+observation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/observation.xsd
+END
+SchematronConstraints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/SchematronConstraints.xml
+END
+datums.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/datums.xsd
+END
+units.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/units.xsd
+END
+dictionary.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/dictionary.xsd
+END
+geometryBasic0d1d.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/geometryBasic0d1d.xsd
+END
+geometryPrimitives.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/geometryPrimitives.xsd
+END
+gmlBase.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/gmlBase.xsd
+END
+temporalTopology.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/temporalTopology.xsd
+END
+temporal.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/temporal.xsd
+END
+geometryBasic2d.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/geometryBasic2d.xsd
+END
+referenceSystems.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/referenceSystems.xsd
+END
+coordinateOperations.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/coordinateOperations.xsd
+END
+coverage.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/coverage.xsd
+END
+feature.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/feature.xsd
+END
+coordinateReferenceSystems.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/coordinateReferenceSystems.xsd
+END
+dynamicFeature.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/dynamicFeature.xsd
+END
+defaultStyle.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/defaultStyle.xsd
+END
+basicTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/basicTypes.xsd
+END
+grids.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/grids.xsd
+END
+geometryComplexes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/geometryComplexes.xsd
+END
+topology.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/topology.xsd
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/ReadMe.txt
+END
+gml.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/gml.xsd
+END
+coordinateSystems.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/coordinateSystems.xsd
+END
+direction.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/gml/3.2.1/direction.xsd
+END

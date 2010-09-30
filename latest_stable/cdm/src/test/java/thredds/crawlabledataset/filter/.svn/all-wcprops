@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/filter
+END
+TestLogicalFilterComposer.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/filter/TestLogicalFilterComposer.java
+END
+TestWildcardMatchOnNameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/filter/TestWildcardMatchOnNameFilter.java
+END
+TestRegExpMatchOnNameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/filter/TestRegExpMatchOnNameFilter.java
+END

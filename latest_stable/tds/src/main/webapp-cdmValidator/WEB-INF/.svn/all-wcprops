@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp-cdmValidator/WEB-INF
+END
+applicationContext-cdmValidatorConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp-cdmValidator/WEB-INF/applicationContext-cdmValidatorConfig.xml
+END
+cdmvalidator-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp-cdmValidator/WEB-INF/cdmvalidator-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp-cdmValidator/WEB-INF/web.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp-cdmValidator/WEB-INF/log4j.xml
+END

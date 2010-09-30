@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor
+END
+LogDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/LogDownloader.java
+END
+Chart.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/Chart.java
+END
+MultipleAxisChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/MultipleAxisChart.java
+END
+TdsMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/TdsMonitor.java
+END
+CacheViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/CacheViewer.java
+END
+LogLocalManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/LogLocalManager.java
+END
+AccessLogTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/AccessLogTable.java
+END
+CacheTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/CacheTable.java
+END
+ManageForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/ManageForm.java
+END
+ManageForm.jfd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/ManageForm.jfd
+END
+ServletLogTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/monitor/ServletLogTable.java
+END

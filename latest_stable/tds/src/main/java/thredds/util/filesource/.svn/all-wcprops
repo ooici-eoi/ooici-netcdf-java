@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource
+END
+FileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/FileSource.java
+END
+BasicFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/BasicFileSource.java
+END
+BasicWithExclusionsDescendantFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/BasicWithExclusionsDescendantFileSource.java
+END
+DescendantFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/DescendantFileSource.java
+END
+BasicDescendantFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/BasicDescendantFileSource.java
+END
+ChainedFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/java/thredds/util/filesource/ChainedFileSource.java
+END

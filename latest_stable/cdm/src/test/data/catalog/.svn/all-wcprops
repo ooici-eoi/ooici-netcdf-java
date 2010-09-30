@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/catalog
+END
+addeStationDataset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/catalog/addeStationDataset.xml
+END
+motherlode-dods.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/catalog/motherlode-dods.xml
+END

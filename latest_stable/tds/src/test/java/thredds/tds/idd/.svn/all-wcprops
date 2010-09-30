@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd
+END
+TestUnidataServers.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/TestUnidataServers.java
+END
+CatalogValidityTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CatalogValidityTestUtils.java
+END
+CatalogDatasetTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CatalogDatasetTestUtils.java
+END
+PingTdsAtNsf.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/PingTdsAtNsf.java
+END
+PingTdsOnMotherlode8080.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/PingTdsOnMotherlode8080.java
+END
+CompareGribVarNamesUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CompareGribVarNamesUtils.java
+END
+TdsTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/TdsTestUtils.java
+END
+StandardCatalogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/StandardCatalogUtils.java
+END
+GridDatasetTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/GridDatasetTestUtils.java
+END
+CrawlAndCompareDatasetsOnAllUnidataManagedTds.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CrawlAndCompareDatasetsOnAllUnidataManagedTds.java
+END
+CompareGribVarNamesOnMotherlodeTds.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CompareGribVarNamesOnMotherlodeTds.java
+END
+PingAllUnidataManagedTds.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/PingAllUnidataManagedTds.java
+END
+CrawlAndCompareDatasetsOnMotherlodeTds.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CrawlAndCompareDatasetsOnMotherlodeTds.java
+END
+PingMotherlodeTdsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/PingMotherlodeTdsTest.java
+END
+IddModelDatasetsUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/IddModelDatasetsUtils.java
+END
+CrawlRandomDatasetsOnMotherlodeTds.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/tds/idd/CrawlRandomDatasetsOnMotherlodeTds.java
+END

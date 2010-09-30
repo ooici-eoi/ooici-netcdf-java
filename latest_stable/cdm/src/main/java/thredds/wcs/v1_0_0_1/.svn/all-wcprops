@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1
+END
+GetCapabilitiesBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/GetCapabilitiesBuilder.java
+END
+GetCoverageBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/GetCoverageBuilder.java
+END
+WcsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsDataset.java
+END
+DescribeCoverageBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/DescribeCoverageBuilder.java
+END
+WcsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsRequest.java
+END
+WcsCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsCoverage.java
+END
+GetCapabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/GetCapabilities.java
+END
+ExceptionReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/ExceptionReport.java
+END
+GetCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/GetCoverage.java
+END
+WcsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsException.java
+END
+DescribeCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/DescribeCoverage.java
+END
+WcsRequestBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsRequestBuilder.java
+END
+WcsRangeField.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/wcs/v1_0_0_1/WcsRangeField.java
+END

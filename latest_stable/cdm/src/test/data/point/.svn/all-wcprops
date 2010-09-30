@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point
+END
+stationProfileMultidimUnlimited.nc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimUnlimited.nc
+END
+point.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/point.ncml
+END
+stationProfileData.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileData.ncml
+END
+stationMultidimMissingId.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimMissingId.ncml
+END
+profileMultidimTimeZJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidimTimeZJoin.ncml
+END
+stationRaggedContig.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationRaggedContig.ncml
+END
+stationSingleWithZlevel.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationSingleWithZlevel.ncml
+END
+profileSingleTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileSingleTimeJoin.ncml
+END
+profileRaggedIndexTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileRaggedIndexTimeJoin.ncml
+END
+profileSingle.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileSingle.ncml
+END
+profileRaggedIndex.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileRaggedIndex.ncml
+END
+stationProfileMultidimJoinTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimJoinTime.ncml
+END
+stationProfileMultidim.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidim.ncml
+END
+sectionMultidimMissingIdString.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidimMissingIdString.ncml
+END
+sectionMultidim.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidim.ncml
+END
+stationProfileRaggedJoinTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileRaggedJoinTime.ncml
+END
+stationProfileRagged.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileRagged.ncml
+END
+profileMultidimMissingId.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidimMissingId.ncml
+END
+trajMultidimMissingTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajMultidimMissingTime.ncml
+END
+stationProfileMultidimMissingId.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimMissingId.ncml
+END
+sectionRagged.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionRagged.ncml
+END
+stationProfileFlat.nc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileFlat.nc
+END
+sectionFlat.nc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionFlat.nc
+END
+stationSingle.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationSingle.ncml
+END
+sectionMultidimJoinZ.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidimJoinZ.ncml
+END
+stationMultidimTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimTimeJoin.ncml
+END
+stationMultidim.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidim.ncml
+END
+stationMultidimMissingTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimMissingTime.ncml
+END
+profileMultidimMissingAlt.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidimMissingAlt.ncml
+END
+trajSingle.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajSingle.ncml
+END
+trajRaggedIndex.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajRaggedIndex.ncml
+END
+trajRaggedMissing.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajRaggedMissing.ncml
+END
+stationMultidimUnlimited.nc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimUnlimited.nc
+END
+pointUnlimited.nc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/pointUnlimited.nc
+END
+trajMultidimMissingId.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajMultidimMissingId.ncml
+END
+profileRaggedContigTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileRaggedContigTimeJoin.ncml
+END
+profileRaggedContig.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileRaggedContig.ncml
+END
+sectionMultidimMissingTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidimMissingTime.ncml
+END
+stationRaggedIndex.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationRaggedIndex.ncml
+END
+stationProfileSingleTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileSingleTimeJoin.ncml
+END
+stationProfileSingle.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileSingle.ncml
+END
+profileMultidimTimeJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidimTimeJoin.ncml
+END
+stationProfileMultidimMissingIdString.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimMissingIdString.ncml
+END
+profileMultidim.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidim.ncml
+END
+sectionSingle.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionSingle.ncml
+END
+stationProfileFlat.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileFlat.ncml
+END
+stationProfileAss.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileAss.ncml
+END
+sectionFlat.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionFlat.ncml
+END
+trajRaggedContig.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajRaggedContig.ncml
+END
+profileMultidimZJoin.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/profileMultidimZJoin.ncml
+END
+sectionMultidimMissingId.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidimMissingId.ncml
+END
+stationProfileMultidimJoinZ.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimJoinZ.ncml
+END
+pointMissing.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/pointMissing.ncml
+END
+stationFlat.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationFlat.ncml
+END
+stationFlat.nc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationFlat.nc
+END
+stationMultidimUnlimited.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimUnlimited.ncml
+END
+stationProfileMultidimMissingAlt.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimMissingAlt.ncml
+END
+sectionMultidimMissingAlt.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/sectionMultidimMissingAlt.ncml
+END
+trajMultidim.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/trajMultidim.ncml
+END
+stationProfileMultidimMissingTime.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimMissingTime.ncml
+END
+stationProfileMultidimUnlimited.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimUnlimited.ncml
+END
+stationProfileMultidimJoinTimeAndZ.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationProfileMultidimJoinTimeAndZ.ncml
+END
+stationMultidimMissingIdString.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationMultidimMissingIdString.ncml
+END
+stationRaggedMissing.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/point/stationRaggedMissing.ncml
+END

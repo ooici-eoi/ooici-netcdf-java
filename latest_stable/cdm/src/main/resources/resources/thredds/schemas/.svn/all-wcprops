@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas
+END
+dif_v9.4.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/dif_v9.4.xsd
+END
+InvCatalog.1.0.1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.1.0.1.xsd
+END
+InvCatalog.1.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.1.0.xsd
+END
+InvCatalog.1.0.2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.1.0.2.xsd
+END
+InvCatalog.2.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.2.0.xsd
+END
+InvCatalog.1.0.3.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.1.0.3.xsd
+END
+xlink.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/xlink.xsd
+END
+CatalogGenConfig.1.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/CatalogGenConfig.1.0.xsd
+END
+InvCatalog.0.6.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.0.6.xsd
+END
+CatalogGenConfig.0.5.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/CatalogGenConfig.0.5.xsd
+END
+log4j.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/log4j.dtd
+END
+dif.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/dif.xsd
+END
+queryCapability.0.2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/queryCapability.0.2.xsd
+END
+InvCatalog.0.6.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/InvCatalog.0.6.dtd
+END
+queryCapability.0.3.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/queryCapability.0.3.xsd
+END
+CatalogGenConfig.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/CatalogGenConfig.dtd
+END
+queryCapability.0.4.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/queryCapability.0.4.xsd
+END
+CatalogGenConfig.0.5.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/CatalogGenConfig.0.5.dtd
+END
+TdsConfig.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/thredds/schemas/TdsConfig.xsd
+END

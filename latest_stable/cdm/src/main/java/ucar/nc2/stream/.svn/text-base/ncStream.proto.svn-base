@@ -1,0 +1,104 @@
+package ncstream;
+
+option java_package = "ucar.nc2.stream";
+option java_outer_classname = "NcStreamProto";
+
+message Attribute {
+  required string name = 1;
+  enum Type {
+    STRING = 0;
+    BYTE = 1;
+    SHORT = 2;
+    INT = 3;
+    LONG = 4;
+    FLOAT = 5;
+    DOUBLE = 6;
+  }
+  required Type type = 2;
+  required uint32 len = 3;
+  required bytes data = 4;
+}
+
+enum DataType {
+  CHAR = 0;
+  BYTE = 1;
+  SHORT = 2;
+  INT = 3;
+  LONG = 4;
+  FLOAT = 5;
+  DOUBLE = 6;
+  STRING = 7;
+  STRUCTURE = 8;
+  SEQUENCE = 9;
+  ENUM1 = 10;
+  ENUM2 = 11;
+  ENUM4 = 12;
+  OPAQUE = 13;
+}
+
+message Dimension {
+  optional string name = 1;
+  optional uint64 length = 2;
+  optional bool isUnlimited = 3;
+  optional bool isVlen = 4;
+  optional bool isPrivate = 5;
+}
+
+message Variable {
+  required string name = 1;
+  required DataType dataType = 2;
+  repeated Dimension shape = 3;  // actual dimension instead of reference
+  repeated Attribute atts = 4;
+  optional bool unsigned = 5;  // default false
+  optional bytes data = 6;    // "immediate" - store small data in header
+}
+
+message Structure {
+  required string name = 1;
+  required DataType dataType = 2;  // struct or seq
+  repeated Dimension shape = 3; // actual dimension instead of reference
+  repeated Attribute atts = 4;
+  repeated Variable vars = 5;
+  repeated Structure structs = 6;
+}
+
+message Group {
+  required string name = 1;
+  repeated Dimension dims = 2;
+  repeated Variable vars = 3;
+  repeated Structure structs = 4;
+  repeated Attribute atts = 5;
+  repeated Group groups = 6;
+}
+
+message Header {
+  optional string location = 1;
+  optional string title = 2;
+  optional string id = 3;
+  required Group root = 4;
+}
+
+//////////////////////////////////
+
+message Data {
+  required string varName = 1;
+  required DataType dataType = 2;
+  required Section section = 3;
+  optional bool bigend = 4 [default = true];
+}
+
+message Range {
+  optional uint64 start = 1;
+  required uint64 size = 2;
+  optional uint64 stride = 3;
+}
+
+message Section {
+  repeated Range range = 1;
+}
+
+//////////////////////////////////
+
+message Error {
+  required string message = 1;
+}

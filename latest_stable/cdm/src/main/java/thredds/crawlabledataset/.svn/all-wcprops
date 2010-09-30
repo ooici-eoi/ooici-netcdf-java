@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset
+END
+CrawlableDatasetSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetSorter.java
+END
+MultiLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/MultiLabeler.java
+END
+CrawlableDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDataset.java
+END
+CrawlableDatasetFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetFile.java
+END
+CrawlableDatasetFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetFilter.java
+END
+CrawlableDatasetLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetLabeler.java
+END
+CrawlableDatasetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetFactory.java
+END
+RegExpAndReplaceOnPathLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/RegExpAndReplaceOnPathLabeler.java
+END
+CrawlableDatasetAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetAlias.java
+END
+CrawlableDatasetDods.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/CrawlableDatasetDods.java
+END
+RegExpAndReplaceOnNameLabeler.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/java/thredds/crawlabledataset/RegExpAndReplaceOnNameLabeler.java
+END

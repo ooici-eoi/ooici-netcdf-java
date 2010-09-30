@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server
+END
+TestMotherlodeLatest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestMotherlodeLatest.java
+END
+TestTDSdataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestTDSdataset.java
+END
+TestMlodeThreaded.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestMlodeThreaded.java
+END
+TestMotherlode.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestMotherlode.java
+END
+TestFmrcRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestFmrcRemote.java
+END
+TestConcurrentAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestConcurrentAccess.java
+END
+TestMotherlodeModels.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestMotherlodeModels.java
+END
+TestTDS.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestTDS.java
+END
+TestHttpDownloadModels.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestHttpDownloadModels.java
+END
+TestIDVdatasets.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/java/ucar/nc2/thredds/server/TestIDVdatasets.java
+END

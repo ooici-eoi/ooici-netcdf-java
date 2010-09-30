@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds
+END
+TestServerSiteMotherlodeIDV.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestServerSiteMotherlodeIDV.java
+END
+TestServerSiteOutOfBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestServerSiteOutOfBox.java
+END
+TestAllLevel2.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestAllLevel2.java
+END
+TestAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestAll.java
+END
+TestServerSite.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestServerSite.java
+END
+TestServerSiteIDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestServerSiteIDD.java
+END
+TestCompareTwoCatalogs.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/TestCompareTwoCatalogs.java
+END

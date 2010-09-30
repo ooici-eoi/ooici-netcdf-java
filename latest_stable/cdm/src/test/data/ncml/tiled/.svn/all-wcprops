@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled
+END
+testWriteTile.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testWriteTile.ncml
+END
+testAggTiled.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testAggTiled.ncml
+END
+testWriteTile1.nc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testWriteTile1.nc
+END
+testWriteTile2.nc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testWriteTile2.nc
+END
+testWriteTile3.nc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testWriteTile3.nc
+END
+testWriteTile4.nc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/tiled/testWriteTile4.nc
+END

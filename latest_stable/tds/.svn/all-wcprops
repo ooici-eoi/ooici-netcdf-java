@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds
+END
+README.cdmvalidator.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/README.cdmvalidator.txt
+END
+CHANGES-MLODE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/CHANGES-MLODE.txt
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/CHANGES.txt
+END
+README.TEMPLATE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/README.TEMPLATE
+END
+CHANGES.cdmvalidator.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/CHANGES.cdmvalidator.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/build.xml
+END

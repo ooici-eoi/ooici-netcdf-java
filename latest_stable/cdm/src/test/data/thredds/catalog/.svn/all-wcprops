@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog
+END
+testMetadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testMetadata.xml
+END
+testInvDsScan.subsetCatOnDs.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.subsetCatOnDs.result.xml
+END
+testInvDsScan.dsScanRefactor.input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactor.input.xml
+END
+TestResolvURI.1.0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestResolvURI.1.0.xml
+END
+InvCatalog.0.6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/InvCatalog.0.6.xml
+END
+ParseFails.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/ParseFails.xml
+END
+enhancedCat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/enhancedCat.xml
+END
+DatasetFmrc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/DatasetFmrc.xml
+END
+testInvDsScan.dsScanPreRefactor.input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanPreRefactor.input.xml
+END
+testInvDsScan.dsScanPreRefactor.result1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanPreRefactor.result1.xml
+END
+testInvDsScan.dsScanPreRefactor.result2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanPreRefactor.result2.xml
+END
+testInvDsScan.dsScanPreRefactor.result3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanPreRefactor.result3.xml
+END
+DifTest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/DifTest.xml
+END
+testCatref.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testCatref.xml
+END
+MissingGCProblem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/MissingGCProblem.xml
+END
+testInvDsScan.dsScanRefactorWithNamer.input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithNamer.input.xml
+END
+testInvDsScan.dsScanRefactorWithNamer.result1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithNamer.result1.xml
+END
+testInvDsScan.compoundServerFilterProblem.2.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.compoundServerFilterProblem.2.result.xml
+END
+testInvDsScan.dsScanRefactorWithNamer.result2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithNamer.result2.xml
+END
+testInvDsScan.dsScanRefactorWithNamer.result3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithNamer.result3.xml
+END
+testInvDsScan.addLatest.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.addLatest.result.xml
+END
+testInvDsScan.addIdLowerLevel.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.addIdLowerLevel.result.xml
+END
+testInvDsScan.dsScanRefactorWithDirExclude.resultGFS.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithDirExclude.resultGFS.xml
+END
+TestRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestRef.xml
+END
+testInvDsScan.timeCoverage.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.timeCoverage.result.xml
+END
+catgen1.0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/catgen1.0.xml
+END
+testInvDsScan.dsScanRefactorWithDirExclude.resultNCEP.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithDirExclude.resultNCEP.xml
+END
+testInvDsScan.compoundServiceLower.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.compoundServiceLower.result.xml
+END
+testInvDsScan.addIdTopLevel.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.addIdTopLevel.result.xml
+END
+TestFilter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestFilter.xml
+END
+testInvDsScan.topLevelCat.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.topLevelCat.result.xml
+END
+Example1.0rc7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/Example1.0rc7.xml
+END
+InvRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/InvRef.xml
+END
+TestAlias.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestAlias.xml
+END
+InvCatalogBadDTD.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/InvCatalogBadDTD.xml
+END
+testInvDsScan.dsScanRefactorWithDirExclude.input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.dsScanRefactorWithDirExclude.input.xml
+END
+testInvDsScan.addDatasetSize.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.addDatasetSize.result.xml
+END
+InvCatalog.0.6d.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/InvCatalog.0.6d.xml
+END
+MetadataLink.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/MetadataLink.xml
+END
+test0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/test0.xml
+END
+TestInherit.1.0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestInherit.1.0.xml
+END
+testInvDsScan.secondLevelCat.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.secondLevelCat.result.xml
+END
+test1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/test1.xml
+END
+test2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/test2.xml
+END
+TestInherit.0.6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestInherit.0.6.xml
+END
+enhancedCatOrg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/enhancedCatOrg.xml
+END
+testInvDsScan.compoundServerFilterProblem.1.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.compoundServerFilterProblem.1.result.xml
+END
+testInvDsScan.subsetCatOnDs.input.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.subsetCatOnDs.input.xml
+END
+BadService.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/BadService.xml
+END
+ec2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/ec2.xml
+END
+catalogDev.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/catalogDev.xml
+END
+TestTimeCoverage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestTimeCoverage.xml
+END
+ZoneMetadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/ZoneMetadata.xml
+END
+TestHarvest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/TestHarvest.xml
+END
+testInvDsScan.emptyServiceBase.result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/thredds/catalog/testInvDsScan.emptyServiceBase.result.xml
+END

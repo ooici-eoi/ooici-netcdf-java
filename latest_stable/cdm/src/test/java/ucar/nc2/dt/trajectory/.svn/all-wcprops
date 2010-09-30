@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory
+END
+TestARMTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestARMTrajectoryObsDataset.java
+END
+TestTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestTrajectoryObsDataset.java
+END
+TestRealTimeUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestRealTimeUpdate.java
+END
+TestFloat10TrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestFloat10TrajectoryObsDataset.java
+END
+TestRafTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestRafTrajectoryObsDataset.java
+END
+TestSimpleTrajectoryObsDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/ucar/nc2/dt/trajectory/TestSimpleTrajectoryObsDataset.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/tables/gempak
+END
+params.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/tables/gempak/params.tbl
+END
+wmogrib3.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/tables/gempak/wmogrib3.tbl
+END
+ncepgrib2.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/nj22/tables/gempak/ncepgrib2.tbl
+END

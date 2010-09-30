@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib
+END
+TestGribWriteIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/TestGribWriteIndex.java
+END
+TestCompareGribPDSGDSsections.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/TestCompareGribPDSGDSsections.java
+END
+TestGribReadIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/TestGribReadIndex.java
+END
+Diff.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/Diff.java
+END
+TestAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/test/src/ucar/grib/TestAll.java
+END

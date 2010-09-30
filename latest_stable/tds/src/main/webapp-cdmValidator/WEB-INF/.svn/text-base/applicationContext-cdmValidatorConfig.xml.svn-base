@@ -1,0 +1,47 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:p="http://www.springframework.org/schema/p"
+      xmlns:context="http://www.springframework.org/schema/context"
+      xmlns:aop="http://www.springframework.org/schema/aop"
+      xmlns:util="http://www.springframework.org/schema/util"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/aop
+                http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context-2.5.xsd
+                http://www.springframework.org/schema/util
+                http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+  <bean id="cdmValidatorContext" class="thredds.server.cdmvalidator.CdmValidatorContext">
+    <property name="webappVersion" value="${cdmvalidator.version}"/>
+    <property name="webappVersionBrief" value="${cdmvalidator.version.brief}"/>
+    <property name="webappVersionBuildDate" value="${cdmvalidator.version.builddate}"/>
+
+    <property name="contentRootPath" value="${cdmvalidator.content.root.path}"/>
+    
+    <property name="contentPath" value="${cdmvalidator.content.path}"/>
+    <property name="configFileName" value="${cdmvalidator.config.file}"/>
+
+    <property name="htmlConfig" ref="cdmValidatorHtmlConfig" />
+  </bean>
+
+  <bean id="cdmValidatorHtmlConfig" class="thredds.server.config.HtmlConfig">
+    <property name="webappUrl" value="${cdmvalidator.url}"/>
+    <property name="webappDocsUrl" value="${cdmvalidator.documentation.url}"/>
+    <property name="webappLogoUrl" value="${cdmvalidator.logo.url}"/>
+    <property name="webappLogoAlt" value="${cdmvalidator.logo.alt}"/>
+
+    <property name="installUrl" value="${cdmvalidator.install.url}"/>
+  </bean>
+
+  <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+    <property name="locations">
+      <list>
+        <value>classpath:thredds/server/cdmvalidator.properties</value>
+      </list>
+    </property>
+  </bean>
+
+</beans>

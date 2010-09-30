@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/dataset
+END
+TimeOpen.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/dataset/TimeOpen.java
+END
+TimeScaleOffsetMissing.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/timing/java/ucar/nc2/dataset/TimeScaleOffsetMissing.java
+END

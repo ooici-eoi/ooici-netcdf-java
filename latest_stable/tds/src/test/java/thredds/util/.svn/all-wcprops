@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/util
+END
+TestStringValidateEncodeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/util/TestStringValidateEncodeUtils.java
+END
+TestStartsWithPathAliasReplacement.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/util/TestStartsWithPathAliasReplacement.java
+END
+TestVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/test/java/thredds/util/TestVersion.java
+END

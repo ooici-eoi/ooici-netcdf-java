@@ -1,0 +1,90 @@
+/*
+ * Copyright 1998-2009 University Corporation for Atmospheric Research/Unidata
+ *
+ * Portions of this software were developed by the Unidata Program at the
+ * University Corporation for Atmospheric Research.
+ *
+ * Access and use of this software shall impose the following obligations
+ * and understandings on the user. The user is granted the right, without
+ * any fee or cost, to use, copy, modify, alter, enhance and distribute
+ * this software, and any derivative works thereof, and its supporting
+ * documentation for any purpose whatsoever, provided that this entire
+ * notice appears in all copies of the software, derivative works and
+ * supporting documentation.  Further, UCAR requests that the user credit
+ * UCAR/Unidata in any publications that result from the use of this
+ * software or in any product that includes this software. The names UCAR
+ * and/or Unidata, however, may not be used in any advertising or publicity
+ * to endorse or promote any products or commercial entity unless specific
+ * written permission is obtained from UCAR/Unidata. The user also
+ * understands that UCAR/Unidata is not obligated to provide the user with
+ * any support, consulting, training or assistance of any kind with regard
+ * to the use, operation and performance of this software nor to provide
+ * the user with any updates, revisions, new versions or "bug fixes."
+ *
+ * THIS SOFTWARE IS PROVIDED BY UCAR/UNIDATA "AS IS" AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL UCAR/UNIDATA BE LIABLE FOR ANY SPECIAL,
+ * INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING
+ * FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ * NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+ * WITH THE ACCESS, USE OR PERFORMANCE OF THIS SOFTWARE.
+ */
+package thredds.tds;
+
+import junit.framework.*;
+
+import thredds.catalog.*;
+
+import java.io.IOException;
+import java.util.List;
+
+public class TestDatasetScan extends TestCase {
+
+  public TestDatasetScan( String name) {
+    super(name);
+  }
+
+
+  public void testSort() throws IOException {
+    InvCatalog cat = TestTDSAll.open("/catalog/gribCollection/catalog.xml");
+    InvDataset top = cat.getDataset();
+    List dss = top.getDatasets();
+    assert (dss.size() > 2);
+
+    InvDataset ds1 = (InvDataset) dss.get(1);
+    InvDataset ds2 = (InvDataset) dss.get(2);
+    assert ds1.getName().compareTo( ds2.getName()) < 0 ;
+  }
+
+  public void testLatest() throws IOException {
+     InvCatalogImpl cat = TestTDSAll.open("/catalog/gribCollection/latest.xml");
+     List dss = cat.getDatasets();
+     assert (dss.size() == 1);
+
+     InvDatasetImpl ds = (InvDatasetImpl) dss.get(0);
+     assert ds.hasAccess();
+     assert ds.getDatasets().size() == 0;
+
+     assert ds.getID() != null;
+     assert ds.getDataSize() > 0.0;
+   }
+
+  public void testHarvest() throws IOException {
+    InvCatalogImpl cat = TestTDSAll.open("/catalog/ncmodels/catalog.xml");  // http://localhost:8080/thredds/catalog/ncmodels/catalog.html?dataset=ncmodels
+    InvDataset dscan = cat.findDatasetByID("ncmodels");
+    assert dscan != null;
+    assert dscan.isHarvest();
+
+    List dss = dscan.getDatasets();
+    assert (dss.size() > 0);
+    InvDataset nested = (InvDataset) dss.get(0);
+    assert !nested.isHarvest();
+
+    cat = TestTDSAll.open("/catalog/ncmodels/canonical/catalog.xml");
+    InvDataset ds = cat.findDatasetByID("ncmodels/canonical");
+    assert ds != null;
+    assert !ds.isHarvest();
+  }
+
+}

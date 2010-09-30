@@ -1,0 +1,569 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons
+END
+geoselectSel.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/geoselectSel.gif
+END
+SortDown.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/SortDown.gif
+END
+GridData.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/GridData.gif
+END
+Choose.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Choose.gif
+END
+VCRPlay.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRPlay.gif
+END
+Edit.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Edit.gif
+END
+treeClosed.gif
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/treeClosed.gif
+END
+Left.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Left.gif
+END
+DrawVert.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DrawVert.gif
+END
+time.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/time.gif
+END
+XML.gif
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/XML.gif
+END
+Delete.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Delete.gif
+END
+FileChooser.gif
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/FileChooser.gif
+END
+VCRPrevFrame.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRPrevFrame.gif
+END
+addCoords.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/addCoords.gif
+END
+query.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/query.gif
+END
+Exit.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Exit.gif
+END
+Import.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Import.gif
+END
+VCRBack.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRBack.gif
+END
+ImageData.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/ImageData.gif
+END
+Contours.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Contours.gif
+END
+Right.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Right.gif
+END
+GDV.gif
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/GDV.gif
+END
+Export.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Export.gif
+END
+treeOpen.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/treeOpen.gif
+END
+FontIncr.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/FontIncr.gif
+END
+Geotiff.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Geotiff.gif
+END
+VCRMovieLoop.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRMovieLoop.gif
+END
+Dimension.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Dimension.gif
+END
+Dataset.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Dataset.gif
+END
+WorldMap.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/WorldMap.gif
+END
+SaveAll.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/SaveAll.gif
+END
+treeLeaf.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/treeLeaf.gif
+END
+ThreadSorted.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/ThreadSorted.gif
+END
+VCRPause.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRPause.gif
+END
+DatasetScan.gif
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DatasetScan.gif
+END
+Stop16.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Stop16.gif
+END
+SortUp.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/SortUp.gif
+END
+Save.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Save.gif
+END
+MagnifyPlus.gif
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/MagnifyPlus.gif
+END
+DQCData.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DQCData.gif
+END
+netcdfUI.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/netcdfUI.gif
+END
+select3.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/select3.gif
+END
+GDVs.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/GDVs.gif
+END
+VCRNextFrame.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRNextFrame.gif
+END
+DataProjection.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DataProjection.gif
+END
+Down.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Down.gif
+END
+CatalogRef.gif
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/CatalogRef.gif
+END
+DrawHoriz.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DrawHoriz.gif
+END
+ContourLabels.gif
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/ContourLabels.gif
+END
+selectDate.gif
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/selectDate.gif
+END
+USMap.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/USMap.gif
+END
+Grid.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Grid.gif
+END
+Clear.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Clear.gif
+END
+G.gif
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/G.gif
+END
+Table.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Table.gif
+END
+Monitor.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Monitor.gif
+END
+dd.gif
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/dd.gif
+END
+V3.gif
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/V3.gif
+END
+Help.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Help.gif
+END
+Stop24.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Stop24.gif
+END
+MonitorSel.gif
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/MonitorSel.gif
+END
+Print.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Print.gif
+END
+alienSel.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/alienSel.gif
+END
+thredds.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/thredds.gif
+END
+Refresh.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Refresh.gif
+END
+CatalogRefRead.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/CatalogRefRead.gif
+END
+VCRRewind.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRRewind.gif
+END
+MagnifyMinus.gif
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/MagnifyMinus.gif
+END
+ReferencePoint.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/ReferencePoint.gif
+END
+GetAll.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/GetAll.gif
+END
+DetailedMap.gif
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/DetailedMap.gif
+END
+Wrap.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Wrap.gif
+END
+geoselect.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/geoselect.gif
+END
+Select.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Select.gif
+END
+FingerUp.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/FingerUp.gif
+END
+Up.gif
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Up.gif
+END
+Information.gif
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Information.gif
+END
+Home.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Home.gif
+END
+alien.gif
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/alien.gif
+END
+ThreadUnsorted.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/ThreadUnsorted.gif
+END
+VCRFastForward.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRFastForward.gif
+END
+threddsLogo.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/threddsLogo.png
+END
+Doit.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Doit.gif
+END
+Structure.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Structure.gif
+END
+VCRStop.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/VCRStop.gif
+END
+FingerDown.gif
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/FingerDown.gif
+END
+netcdf.gif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/netcdf.gif
+END
+FontDecr.gif
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/FontDecr.gif
+END
+Undo.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Undo.gif
+END
+Dump.gif
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/Dump.gif
+END
+WorldDetailMap.gif
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/WorldDetailMap.gif
+END
+MovieLoop.gif
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/MovieLoop.gif
+END
+catalog.gif
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/ui/src/main/resources/resources/nj22/ui/icons/catalog.gif
+END

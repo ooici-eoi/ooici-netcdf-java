@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory
+END
+NCEP-NAM-CONUS_40km-conduit.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_40km-conduit.fmrcDefinition.xml
+END
+NCEP-GEFS-Global_1p0deg_Ensemble_derived.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GEFS-Global_1p0deg_Ensemble_derived.fmrcDefinition.xml
+END
+NCEP-RUC2-CONUS_20km-pressure.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-RUC2-CONUS_20km-pressure.fmrcDefinition.xml
+END
+NCEP-WW3-WestCoast_4minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-WestCoast_4minute.fmrcDefinition.xml
+END
+NCEP-NAM-Alaska_22km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Alaska_22km.fmrcDefinition.xml
+END
+NCEP-WW3-GLOBAL_30minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-GLOBAL_30minute.fmrcDefinition.xml
+END
+NCEP-GFS-CONUS_80km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-CONUS_80km.fmrcDefinition.xml
+END
+NCEP-DGEX-CONUS_12km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-DGEX-CONUS_12km.fmrcDefinition.xml
+END
+NCEP-RUC2-CONUS_20km-hybrid.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-RUC2-CONUS_20km-hybrid.fmrcDefinition.xml
+END
+NCEP-NAM-Alaska_45km-conduit.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Alaska_45km-conduit.fmrcDefinition.xml
+END
+NCEP-SREF-CONUS_40km-pgrb_biasc.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-SREF-CONUS_40km-pgrb_biasc.fmrcDefinition.xml
+END
+NCEP-SREF-PacificNE_0p4-ensprod.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-SREF-PacificNE_0p4-ensprod.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_20km-noaaport.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_20km-noaaport.fmrcDefinition.xml
+END
+NCEP-WW3-Alaskan_10minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Alaskan_10minute.fmrcDefinition.xml
+END
+NCEP-WW3-WestCoast_10minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-WestCoast_10minute.fmrcDefinition.xml
+END
+NCEP-WW3-Regional_Eastern_Pacific.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Regional_Eastern_Pacific.fmrcDefinition.xml
+END
+NCEP-WW3-Global.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Global.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_20km-surface.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_20km-surface.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_20km-selectsurface.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_20km-selectsurface.fmrcDefinition.xml
+END
+NCEP-WW3-Coastal_US_East_Coast.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Coastal_US_East_Coast.fmrcDefinition.xml
+END
+NCEP-GEFS-Global_1p0deg_Ensemble_member.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GEFS-Global_1p0deg_Ensemble_member.fmrcDefinition.xml
+END
+NCEP-NAM-Polar_90km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Polar_90km.fmrcDefinition.xml
+END
+NCEP-NAM-Alaska_45km-noaaport.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Alaska_45km-noaaport.fmrcDefinition.xml
+END
+NCEP-GFS-CONUS_191km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-CONUS_191km.fmrcDefinition.xml
+END
+NCEP-SREF-CONUS_40km-ensprod.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-SREF-CONUS_40km-ensprod.fmrcDefinition.xml
+END
+NCEP-WW3-Regional_US_East_Coast.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Regional_US_East_Coast.fmrcDefinition.xml
+END
+NCEP-GFS-Alaska_191km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Alaska_191km.fmrcDefinition.xml
+END
+NCEP-GFS-Hawaii_160km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Hawaii_160km.fmrcDefinition.xml
+END
+NCEP-GFS-Global_onedeg.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Global_onedeg.fmrcDefinition.xml
+END
+NCEP-NAM-Alaska_11km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Alaska_11km.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_80km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_80km.fmrcDefinition.xml
+END
+NCEP-WW3-Atlantic_10minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Atlantic_10minute.fmrcDefinition.xml
+END
+NCEP-SREF-Alaska_45km-ensprod.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-SREF-Alaska_45km-ensprod.fmrcDefinition.xml
+END
+NCEP-GFS-N_Hemisphere_381km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-N_Hemisphere_381km.fmrcDefinition.xml
+END
+NCEP-WW3-Coastal_US_West_Coast.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Coastal_US_West_Coast.fmrcDefinition.xml
+END
+NCEP-GFS-CONUS_95km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-CONUS_95km.fmrcDefinition.xml
+END
+NCEP-NAM-Alaska_95km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-Alaska_95km.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_12km-noaaport.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_12km-noaaport.fmrcDefinition.xml
+END
+NCEP-DGEX-Alaska_12km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-DGEX-Alaska_12km.fmrcDefinition.xml
+END
+NCEP-NDFD-CONUS_5km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NDFD-CONUS_5km.fmrcDefinition.xml
+END
+NCEP-RUC-CONUS_80km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-RUC-CONUS_80km.fmrcDefinition.xml
+END
+NCEP-RUC2-CONUS_20km-surface.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-RUC2-CONUS_20km-surface.fmrcDefinition.xml
+END
+NCEP-WW3-Coastal_Alaska.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Coastal_Alaska.fmrcDefinition.xml
+END
+NCEP-WW3-EasternPacific_10minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-EasternPacific_10minute.fmrcDefinition.xml
+END
+NCEP-WW3-Regional_US_West_Coast.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Regional_US_West_Coast.fmrcDefinition.xml
+END
+NCEP-GFS-Global_0p5deg.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Global_0p5deg.fmrcDefinition.xml
+END
+NCEP-WW3-Atlantic_4minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Atlantic_4minute.fmrcDefinition.xml
+END
+NCEP-GFS-Global_2p5deg.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Global_2p5deg.fmrcDefinition.xml
+END
+NCEP-GFS-Global_1p0deg_Ensemble.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Global_1p0deg_Ensemble.fmrcDefinition.xml
+END
+NCEP-SREF-CONUS_40km-ensprod_biasc.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-SREF-CONUS_40km-ensprod_biasc.fmrcDefinition.xml
+END
+NCEP-GFS-Puerto_Rico_191km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-GFS-Puerto_Rico_191km.fmrcDefinition.xml
+END
+NCEP-WW3-Regional_Alaska.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Regional_Alaska.fmrcDefinition.xml
+END
+NCEP-RUC2-CONUS_40km.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-RUC2-CONUS_40km.fmrcDefinition.xml
+END
+NCEP-NAM-CONUS_12km-conduit.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-NAM-CONUS_12km-conduit.fmrcDefinition.xml
+END
+NCEP-WW3-Alaskan_4minute.fmrcDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/idd/thredds/modelInventory/NCEP-WW3-Alaskan_4minute.fmrcDefinition.xml
+END

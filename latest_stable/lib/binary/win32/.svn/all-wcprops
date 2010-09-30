@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32
+END
+hdf5_hldll.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32/hdf5_hldll.dll
+END
+szlibdll.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32/szlibdll.dll
+END
+zlib1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32/zlib1.dll
+END
+hdf5dll.dll
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32/hdf5dll.dll
+END
+netcdf.dll
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/lib/binary/win32/netcdf.dll
+END

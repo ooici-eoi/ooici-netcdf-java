@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml
+END
+renameVar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/renameVar.xml
+END
+testGDV.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/testGDV.xml
+END
+aggUnionSimple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggUnionSimple.xml
+END
+modifyVars.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/modifyVars.xml
+END
+modifyAtts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/modifyAtts.xml
+END
+readRemote.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/readRemote.xml
+END
+aggSynthetic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggSynthetic.xml
+END
+testEquals.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/testEquals.xml
+END
+doubleNested2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/doubleNested2.xml
+END
+aggExistingNcoords.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggExistingNcoords.xml
+END
+aggUnion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggUnion.xml
+END
+nestedDataRead.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/nestedDataRead.xml
+END
+subsetAwips.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/subsetAwips.xml
+END
+aggExisting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggExisting.xml
+END
+aggSynthetic2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggSynthetic2.xml
+END
+aggExistingExplicit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/aggExistingExplicit.xml
+END
+testRead.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/testRead.xml
+END
+testReadOverride.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/testReadOverride.xml
+END
+readMetadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/readMetadata.xml
+END
+doubleNested.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/dataset/xml/doubleNested.xml
+END

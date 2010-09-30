@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl
+END
+VariableGroupTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/VariableGroupTest.java
+END
+TestMetadataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestMetadataImpl.java
+END
+TestServiceContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestServiceContainer.java
+END
+TestPropertyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestPropertyImpl.java
+END
+TestDatasetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestDatasetImpl.java
+END
+TestDatasetNodeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestDatasetNodeImpl.java
+END
+TestThreddsMetadataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestThreddsMetadataImpl.java
+END
+TestServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestServiceImpl.java
+END
+TestAccessImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestAccessImpl.java
+END
+GlobalServiceContainerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/GlobalServiceContainerTest.java
+END
+VariableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/VariableTest.java
+END
+TestPropertyContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestPropertyContainer.java
+END
+TestCatalogRefImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestCatalogRefImpl.java
+END
+ProjectNameImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/ProjectNameImplTest.java
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/AllTests.java
+END
+TestCatalogImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/catalog2/simpleImpl/TestCatalogImpl.java
+END

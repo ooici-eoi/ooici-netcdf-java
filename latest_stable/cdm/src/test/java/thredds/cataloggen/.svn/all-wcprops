@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen
+END
+TestCatGenAndWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestCatGenAndWrite.java
+END
+TestCatalogGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestCatalogGen.java
+END
+TestAllCatGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestAllCatGen.java
+END
+TestDatasetEnhancer1.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestDatasetEnhancer1.java
+END
+TestSimpleCatalogBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestSimpleCatalogBuilder.java
+END
+TestCollectionLevelScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestCollectionLevelScanner.java
+END
+TestDirectoryScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/TestDirectoryScanner.java
+END

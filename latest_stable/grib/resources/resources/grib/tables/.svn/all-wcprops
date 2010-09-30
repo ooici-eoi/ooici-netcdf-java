@@ -1,0 +1,611 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables
+END
+cmcgem_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/cmcgem_2.tab
+END
+beijing_v0.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/beijing_v0.tab
+END
+beijing_v1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/beijing_v1.tab
+END
+beijing_v2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/beijing_v2.tab
+END
+beijing_v3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/beijing_v3.tab
+END
+eumetsat_2_v201.tab
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/eumetsat_2_v201.tab
+END
+fsl_0_0.tab
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fsl_0_0.tab
+END
+ncar_0_200.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncar_0_200.tab
+END
+fsl_2_0.tab
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fsl_2_0.tab
+END
+ukmet_2_v174.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ukmet_2_v174.tab
+END
+ncep_reanal_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncep_reanal_2.tab
+END
+ukmet_2_v175.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ukmet_2_v175.tab
+END
+ecmwf_2_v200.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v200.tab
+END
+ecmwf_2_v201.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v201.tab
+END
+nceptab_138_130.tab
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_138_130.tab
+END
+ecmwf_2_v160.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v160.tab
+END
+ecmwf_2_v162.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v162.tab
+END
+ecmwf_2_v128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v128.tab
+END
+ecmwf_2_v129.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v129.tab
+END
+knmi_99_128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/knmi_99_128.tab
+END
+nc72_ecmwf_3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nc72_ecmwf_3.tab
+END
+tablelookup.lst
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/tablelookup.lst
+END
+afwa.tab
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/afwa.tab
+END
+newzealand_133.tab
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/newzealand_133.tab
+END
+wwiiitab.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wwiiitab.tab
+END
+grib2local.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/grib2local.tab
+END
+gribtab-GLDAS-VIC.tab
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/gribtab-GLDAS-VIC.tab
+END
+tables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/tables.txt
+END
+mdl_14_v2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/mdl_14_v2.tab
+END
+ecmwf_160.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_160.tab
+END
+ecmwf_162.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_162.tab
+END
+wmo_2_v1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wmo_2_v1.tab
+END
+ecmwf_2_v210.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v210.tab
+END
+wmo_2_v2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wmo_2_v2.tab
+END
+ecmwf_2_v211.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v211.tab
+END
+ecmwf_128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_128.tab
+END
+ecmwf_2_v130.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v130.tab
+END
+wmo_2_v3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wmo_2_v3.tab
+END
+ecmwf_2_v131.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v131.tab
+END
+ecmwf_2_v132.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v132.tab
+END
+jma_0_v3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/jma_0_v3.tab
+END
+ecmwf_2_v170.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v170.tab
+END
+fws_2_v128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v128.tab
+END
+fws_2_v128.ecmwf.tab
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v128.ecmwf.tab
+END
+ecmwf_2_v171.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v171.tab
+END
+fws_2_v128.mf.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v128.mf.tab
+END
+ecmwf_2_v172.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v172.tab
+END
+ecmwf_2_v173.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v173.tab
+END
+ecmwf_2_v174.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v174.tab
+END
+ecmwf_2_v175.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v175.tab
+END
+nceptab_129.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_129.tab
+END
+zagreb_221_1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/zagreb_221_1.tab
+END
+af_128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/af_128.tab
+END
+af_129.tab
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/af_129.tab
+END
+vic_138_v130.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/vic_138_v130.tab
+END
+fws_2_v1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v1.tab
+END
+fws_2_v2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v2.tab
+END
+fws_2_v3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fws_2_v3.tab
+END
+ncep_reanal1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncep_reanal1.tab
+END
+imd_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/imd_2.tab
+END
+gribmap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/gribmap.txt
+END
+ncep_reanal3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncep_reanal3.tab
+END
+ecmwf_2_v220.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v220.tab
+END
+ecmwf_2_v140.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v140.tab
+END
+ncep_reanal_132.tab
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncep_reanal_132.tab
+END
+nceptab_1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_1.tab
+END
+wmo_2_v3.mf.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wmo_2_v3.mf.tab
+END
+nceptab_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_2.tab
+END
+nceptab_3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_3.tab
+END
+nceptab_130.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_130.tab
+END
+ecmwf_2_v180.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v180.tab
+END
+nceptab_131.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_131.tab
+END
+wrf_2_200.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wrf_2_200.tab
+END
+gwc_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/gwc_2.tab
+END
+nceptab_12_130.tab
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_12_130.tab
+END
+inpe_0_128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/inpe_0_128.tab
+END
+af_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/af_2.tab
+END
+grib2StdQuantities.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/grib2StdQuantities.xml
+END
+usertables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/usertables.txt
+END
+fnmoc_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fnmoc_2.tab
+END
+fnmoc_3.tab
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/fnmoc_3.tab
+END
+ncar_1_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncar_1_2.tab
+END
+gribtab-GLDAS-NOAH.tab
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/gribtab-GLDAS-NOAH.tab
+END
+ecmwf_140.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_140.tab
+END
+dwd_v201.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/dwd_v201.tab
+END
+dwd_v202.tab
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/dwd_v202.tab
+END
+nceptab_2_128.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_2_128.tab
+END
+grib2userparameters.tab
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/grib2userparameters.tab
+END
+rome_2_v201.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/rome_2_v201.tab
+END
+wmo_2_v3.ecmwf.tab
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/wmo_2_v3.ecmwf.tab
+END
+ecmwf_2_v230.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v230.tab
+END
+ecmwf_2_v150.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v150.tab
+END
+ecmwf_2_v151.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v151.tab
+END
+ncep_oper_140.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ncep_oper_140.tab
+END
+knmi_99_1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/knmi_99_1.tab
+END
+nceptab_140.tab
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/nceptab_140.tab
+END
+ecmwf_2_v190.tab
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/ecmwf_2_v190.tab
+END
+userlookup.lst
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/userlookup.lst
+END
+tables.lst
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/tables.lst
+END
+meteofrance_1.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/meteofrance_1.tab
+END
+meteofrance_2.tab
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/grib/resources/resources/grib/tables/meteofrance_2.tab
+END

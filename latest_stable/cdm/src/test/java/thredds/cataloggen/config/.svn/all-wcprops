@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config
+END
+TestResultService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestResultService.java
+END
+TestCatGenConfigMetadataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestCatGenConfigMetadataFactory.java
+END
+TestDatasetSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestDatasetSource.java
+END
+TestDatasetNamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestDatasetNamer.java
+END
+TestDatasetNamerType.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestDatasetNamerType.java
+END
+TestDatasetFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestDatasetFilter.java
+END
+TestDatasetFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestDatasetFilterType.java
+END
+TestCatalogRefExpander.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/cataloggen/config/TestCatalogRefExpander.java
+END

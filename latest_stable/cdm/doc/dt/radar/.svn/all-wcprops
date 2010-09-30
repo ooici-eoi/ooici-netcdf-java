@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/doc/dt/radar
+END
+RadarDatasetTrmm.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/doc/dt/radar/RadarDatasetTrmm.java
+END
+NASA_TRMM_radarObjectModel.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/doc/dt/radar/NASA_TRMM_radarObjectModel.txt
+END
+radarModel.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/doc/dt/radar/radarModel.txt
+END
+ATDconventions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/doc/dt/radar/ATDconventions.txt
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset
+END
+TestCrawlableDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestCrawlableDataset.java
+END
+TestCrawlableDatasetFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestCrawlableDatasetFile.java
+END
+TestCrawlableDatasetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestCrawlableDatasetImpl.java
+END
+TestCrawlableDatasetFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestCrawlableDatasetFilter.java
+END
+TestAllCrawlableDataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestAllCrawlableDataset.java
+END
+TestCrawlableDatasetAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/java/thredds/crawlabledataset/TestCrawlableDatasetAlias.java
+END

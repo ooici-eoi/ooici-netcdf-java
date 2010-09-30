@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0
+END
+owsGetCapabilities.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsGetCapabilities.xsd
+END
+wcsAll.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsAll.xsd
+END
+owsManifest.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsManifest.xsd
+END
+owsDomainType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsDomainType.xsd
+END
+owsServiceIdentification.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsServiceIdentification.xsd
+END
+owcsAll.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owcsAll.xsd
+END
+wcsCommon.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsCommon.xsd
+END
+wcsGetCapabilities.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsGetCapabilities.xsd
+END
+owsCoverages.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsCoverages.xsd
+END
+wcsGetCoverage.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsGetCoverage.xsd
+END
+wcsDescribeCoverage.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsDescribeCoverage.xsd
+END
+wcsGridCRS.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsGridCRS.xsd
+END
+wcsContents.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/wcsContents.xsd
+END
+owsDataIdentification.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsDataIdentification.xsd
+END
+owsOperationsMetadata.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsOperationsMetadata.xsd
+END
+owsInterpolationMethod.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/main/resources/resources/schemas/wcs/1.1.0/owsInterpolationMethod.xsd
+END

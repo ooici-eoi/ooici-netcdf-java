@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo
+END
+tableBchanges.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/tableBchanges.txt
+END
+BC_TableB-2.xls
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/BC_TableB-2.xls
+END
+B_TableD.xls
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/B_TableD.xls
+END
+BC_TableB.xls
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/BC_TableB.xls
+END
+tableDchanges.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/tableDchanges.txt
+END
+CodeFlagsCheck.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/CodeFlagsCheck.txt
+END
+BC_CodeFlagTable.xls
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/BC_CodeFlagTable.xls
+END
+B_TableD_LATEST.xls
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/B_TableD_LATEST.xls
+END
+BC_TableB_LATEST.xls
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/bufrTables/src/main/sources/wmo/BC_TableB_LATEST.xls
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite
+END
+AggFmrcGribRunseq.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/AggFmrcGribRunseq.ncml
+END
+aggFmrcNomads.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/aggFmrcNomads.ncml
+END
+AggFmrcGrib.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/AggFmrcGrib.ncml
+END
+aggExistingSSTA.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/aggExistingSSTA.xml
+END
+aggExistingSync.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/aggExistingSync.xml
+END
+aggFmrcScan2.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/aggFmrcScan2.ncml
+END
+AggFmrcNonuniform.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/AggFmrcNonuniform.ncml
+END
+aggForecastModel.ncml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/cdm/src/test/data/ncml/offsite/aggForecastModel.ncml
+END

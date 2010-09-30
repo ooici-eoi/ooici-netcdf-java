@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv
+END
+latestModels.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/latestModels.xml
+END
+models.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/models.xml
+END
+dgex_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/dgex_model.xml
+END
+ruc_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/ruc_model.xml
+END
+nam_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/nam_model.xml
+END
+ndfd_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/ndfd_model.xml
+END
+gfs_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/gfs_model.xml
+END
+sref_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/idv/sref_model.xml
+END

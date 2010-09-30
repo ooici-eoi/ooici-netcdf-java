@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations
+END
+Immutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations/Immutable.java
+END
+GuardedBy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations/GuardedBy.java
+END
+ThreadSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations/ThreadSafe.java
+END
+NotThreadSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations/NotThreadSafe.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/common/src/java/net/jcip/annotations/package.html
+END

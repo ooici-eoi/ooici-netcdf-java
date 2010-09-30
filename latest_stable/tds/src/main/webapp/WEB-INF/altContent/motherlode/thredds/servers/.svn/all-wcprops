@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers
+END
+RadarNexradStations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/RadarNexradStations.xml
+END
+nccsRadarlevel2.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/nccsRadarlevel2.xslt
+END
+radarCollections.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/radarCollections.xml
+END
+RadarTerminalStations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/RadarTerminalStations.xml
+END
+RadarL2Stations.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/RadarL2Stations.xml
+END
+radar.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/12018/thredds/tag/REL-CDM-4.2.4/tds/src/main/webapp/WEB-INF/altContent/motherlode/thredds/servers/radar.xsl
+END
