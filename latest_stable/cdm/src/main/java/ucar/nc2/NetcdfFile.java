@@ -501,6 +501,9 @@ public class NetcdfFile implements ucar.nc2.util.cache.FileCacheable {
       byte[] contents = IO.readURLContentsToByteArray( uriString); // read all into memory
       raf = new InMemoryRandomAccessFile(uriString, contents);
 
+    } else if (uriString.startsWith("ooici:")) { // open through OOICI
+      raf = new ooici.netcdf.io.OOICIRandomAccessFile(uriString);
+
     } else {
       // get rid of crappy microsnot \ replace with happy /
       uriString = StringUtil.replace(uriString, '\\', "/");
