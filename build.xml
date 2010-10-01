@@ -6,26 +6,28 @@
 		author: Chris Mueller <cmueller@asascience.com>
 		======================================================================
 	-->
-<project name="ooi-netcdf-java" default="full_build" basedir=".">
+<project name="ooi-netcdf-java" default="makeFull" basedir=".">
 	<description>
 		description
     </description>
 
 	<property name="jarName-full" value="ooi-netcdf-full-4.2.4.jar" />
 	<property name="jarName" value="ooi-netcdf-4.2.4.jar" />
-	<property name="buildDir" location="build" />
-	<property name="distDir" location="dist" />
-	<property name="libsBase" location="latest_stable/lib/" />
-	<property name="ooiLibsBase" location="latest_stable/ooici/lib/" />
-	<property name="tempDir" location="tempbuild" />
+	<property name="buildDir" location="build/" />
+	<property name="distDir" location="dist/" />
+	<property name="codebase" location="latest_stable/"/>
+	<property name="cdmResDir" location="${codebase}/cdm/src/main/resources/"/>
+	<property name="libsBase" location="${codebase}/lib/" />
+	<property name="ooiLibsBase" location="${codebase}/ooici/lib/" />
+	<property name="tempDir" location="tempbuild/" />
 	<property name="target" value="1.6" />
 	<property name="source" value="1.6" />
 
 	<path id="srcPath">
-		<pathelement location="latest_stable/ooici/src/main/java" />
-		<pathelement location="latest_stable/common/src/java"/>
-		<pathelement location="latest_stable/cdm/src/main/java"/>
-		<pathelement location="latest_stable/cdm/src/main/resources"/>
+		<pathelement location="${codebase}/ooici/src/main/java" />
+		<pathelement location="${codebase}/common/src/java"/>
+		<pathelement location="${codebase}/cdm/src/main/java"/>
+		<pathelement location="${codebase}/cdm/src/main/resources"/>
 	</path>
 
 	<path id="Libs.classpath">
@@ -58,27 +60,33 @@
 	</path>
 
 	<!-- =================================
-	      target: lite_build - inits and compiles, then jars the netcdf library and all of it's dependencies
+	      target: makeFull - inits and compiles, then jars the netcdf library and all of it's dependencies
 	     ================================= -->
-	<target name="full_build" depends="init,compile,jar_full" description="Builds the ${ant.project.name} project.">
+	<target name="makeFull" depends="init,compile,jar_full" description="Builds the ${ant.project.name} project.">
 		<echo message="${ant.project.name} built with jar..." />
 	</target>
 
 	<!-- =================================
-	      target: lite_build - inits and compiles, then jars only the netcdf library
+	      target: makeLite - inits and compiles, then jars only the netcdf library
 	     ================================= -->
-	<target name="lite_build" depends="init,compile,jar" description="Builds the ${ant.project.name} project.">
+	<target name="makeLite" depends="init,compile,jar" description="Builds the ${ant.project.name} project.">
 		<echo message="${ant.project.name} built with jar..." />
 	</target>
 
 	<!-- =================================
-          target: init - deletes and recreates the build and dist folders
+          target: init - makes the build and dist folders
          ================================= -->
-	<target name="init">
-		<delete dir="${buildDir}" />
+	<target name="init" depends="clean">
 		<mkdir dir="${buildDir}" />
-		<delete dir="${distDir}" />
 		<mkdir dir="${distDir}" />
+	</target>
+	
+	<!-- =================================
+          target: clean - deletes the build and dist folders
+         ================================= -->
+	<target name="clean">
+		<delete dir="${buildDir}" />
+		<delete dir="${distDir}" />
 	</target>
 
 	<!-- =================================
@@ -92,39 +100,63 @@
 	</target>
 
 	<!-- =================================
-          target: jar - creates a jar file from the bin directory
+          target: jar - creates a jar file from the build directory
          ================================= -->
-	<target name="jar" depends="init,compile">
-		<jar destfile="${distDir}/${jarName}" basedir="${buildDir}" />
+	<target name="jar">
+		<jar jarfile="${distDir}/${jarName}" index="true">
+			<fileset dir="${buildDir}">
+				<exclude name="thredds/catalog2/**"/>
+			</fileset>
+			<fileset dir="${cdmResDir}">
+				<include name="resources/nj22/**"/>
+				<include name="resources/thredds/**"/>
+			</fileset>
+		</jar>
 	</target>
 	
 	<!-- =================================
           target: jar - creates the full netcdf jar file including the content of all dependancies
          ================================= -->
-	<target name="jar_full" depends="init,compile">
+	<target name="jar_full">
+		<!-- Delete and remake the temp directory -->
 		<delete dir="${tempDir}"/>
 		<mkdir dir="${tempDir}"/>
 		<!-- unzip all dependencies to the temp folder -->
-		<unzip src="${libsBase}/external/commons-codec-1.3.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/commons-codec-1.3.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/commons-httpclient-3.1.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/commons-logging-1.1.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/ehcache-1.6.0.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/jdom.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/je-4.0.71.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/jna.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/protobuf-java-2.1.0.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/slf4j-api-1.5.6.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/slf4j-jdk14-1.5.6.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/external/stax-api-1.0.1.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/bufrTables-2.0.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/grib-8.0.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/httpclient-4.1.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/httpcore-4.1.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/opendap-2.2.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/unidatacommon.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/release/visadNoDods.jar" dest="${tempDir}"/>
-		<unzip src="${libsBase}/../grib/lib/jpeg2000.jar" dest="${tempDir}"/>
+		<unzip dest="${tempDir}">
+			<fileset dir="${libsBase}">
+				<include name="external/commons-codec-1.3.jar"/>
+				<include name="external/commons-httpclient-3.1.jar"/>
+				<include name="external/commons-logging-1.1.jar"/>
+				<include name="external/ehcache-1.6.0.jar"/>
+				<include name="external/jdom.jar"/>
+				<include name="external/je-4.0.71.jar"/>
+				<include name="external/jna.jar"/>
+				<include name="external/protobuf-java-2.1.0.jar"/>
+				<include name="external/slf4j-api-1.5.6.jar"/>
+				<include name="external/slf4j-jdk14-1.5.6.jar"/>
+				<include name="external/stax-api-1.0.1.jar"/>
+				<include name="release/bufrTables-2.0.jar"/>
+				<include name="release/grib-8.0.jar"/>
+				<include name="release/httpclient-4.1.jar"/>
+				<include name="release/httpcore-4.1.jar"/>
+				<include name="release/opendap-2.2.jar"/>
+				<include name="release/unidatacommon.jar"/>
+				<include name="release/visadNoDods.jar"/>
+				<include name="../grib/lib/jpeg2000.jar"/>
+			</fileset>
+		</unzip>
+		<unzip dest="${tempDir}">
+			<fileset dir="${ooiLibsBase}">
+				<include name="base64coder.jar"/>
+				<include name="commons-cli-1.1.jar"/>
+				<include name="commons-io-1.2.jar"/>
+				<include name="ioncore-full-0.1.0.jar"/>
+				<include name="json_simple-1.1.jar"/>
+				<include name="msgpack-0.3.jar"/>
+				<include name="rabbitmq-client.jar"/>
+			</fileset>
+		</unzip>
+		
 		
 		<!-- copy the contents of build -->
 		<copy toDir="${tempDir}">
@@ -132,8 +164,17 @@
 		</copy>
 		
 		<!-- jar the contents of libtemp -->
-		<jar destfile="${distDir}/${jarName-full}" basedir="${tempDir}"/>
+		<jar jarfile="${distDir}/${jarName-full}" index="true">
+			<fileset dir="${tempDir}">
+				<exclude name="thredds/catalog2/**"/>
+			</fileset>
+			<fileset dir="${cdmResDir}">
+				<include name="resources/nj22/**"/>
+				<include name="resources/thredds/**"/>
+			</fileset>
+		</jar>
 		
+		<!-- Delete the temp directory -->
 		<delete dir="${tempDir}"/>
 	</target>
 </project>
