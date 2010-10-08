@@ -32,8 +32,10 @@ public class AttributeStore extends BaseProcess {
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("key", key);
         IonMessage msg = this.rpcSend(ionServiceName, "get", map);
+        HashMap<String, Object> headers = (HashMap<String, Object>) msg.getIonHeaders();
+        String status = (String)headers.get("status");
         HashMap<String, Object> content = (HashMap<String, Object>) msg.getContent();
-        String status = (String) content.get("status");
+//        String status = (String) content.get("status");
         if (status != null & status.equalsIgnoreCase("ok")) {
             ret = (String) content.get("value");
         }
@@ -54,8 +56,10 @@ public class AttributeStore extends BaseProcess {
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("regex", regex);
         IonMessage msg = this.rpcSend(ionServiceName, "query", map);
+        HashMap<String, Object> headers = (HashMap<String, Object>) msg.getIonHeaders();
+        String status = (String)headers.get("status");
         HashMap<String, Object> content = (HashMap<String, Object>) msg.getContent();
-        String status = (String) content.get("status");
+//        String status = (String) content.get("status");
         if (status != null & status.equalsIgnoreCase("ok")) {
             ret = (ArrayList<String>) content.get("result");
         }
