@@ -6,7 +6,7 @@
 		author: Chris Mueller <cmueller@asascience.com>
 		======================================================================
 	-->
-<project name="ooi-netcdf-java" default="makeFull" basedir=".">
+<project name="ooi-netcdf-java" default="makeAll" basedir=".">
 	<description>
 		description
     </description>
@@ -60,16 +60,23 @@
 	</path>
 
 	<!-- =================================
+	      target: makeAll - inits and compiles, then makes both the full and lite jars
+	     ================================= -->
+	<target name="makeAll" depends="init,compile,jar,jar_full" description="Builds the ${ant.project.name} project.">
+		<echo message="${ant.project.name} built with jar..." />
+	</target>
+
+	<!-- =================================
 	      target: makeFull - inits and compiles, then jars the netcdf library and all of it's dependencies
 	     ================================= -->
-	<target name="makeFull" depends="init,compile,jar_full" description="Builds the ${ant.project.name} project.">
+	<target name="makeFullJar" depends="init,compile,jar_full" description="Builds the ${ant.project.name} project.">
 		<echo message="${ant.project.name} built with jar..." />
 	</target>
 
 	<!-- =================================
 	      target: makeLite - inits and compiles, then jars only the netcdf library
 	     ================================= -->
-	<target name="makeLite" depends="init,compile,jar" description="Builds the ${ant.project.name} project.">
+	<target name="makeLiteJar" depends="init,compile,jar" description="Builds the ${ant.project.name} project.">
 		<echo message="${ant.project.name} built with jar..." />
 	</target>
 
