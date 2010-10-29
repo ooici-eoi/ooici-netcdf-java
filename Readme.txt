@@ -22,4 +22,4 @@ ooi-netcdf-java requires the following projects:
 
 Compile the library and create the jar file:
 ::
-	ant makeFull
+	ant makeFullJar
