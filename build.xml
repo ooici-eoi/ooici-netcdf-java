@@ -50,12 +50,13 @@
 		<pathelement location="${libsBase}/release/unidatacommon.jar"/>
 		<pathelement location="${libsBase}/release/visadNoDods.jar"/>
 		<pathelement location="${libsBase}/../grib/lib/jpeg2000.jar"/>
-		<pathelement location="${ooiLibsBase}/base64coder.jar"/>
 		<pathelement location="${ooiLibsBase}/commons-cli-1.1.jar"/>
 		<pathelement location="${ooiLibsBase}/commons-io-1.2.jar"/>
-		<pathelement location="${ooiLibsBase}/ioncore-full-0.1.0.jar"/>
+		<pathelement location="${ooiLibsBase}/ion_proto-0.3.5.jar"/>
+		<pathelement location="${ooiLibsBase}/ioncore-java-0.2.0.jar"/>
 		<pathelement location="${ooiLibsBase}/json_simple-1.1.jar"/>
 		<pathelement location="${ooiLibsBase}/msgpack-0.3.jar"/>
+		<pathelement location="${ooiLibsBase}/protobuf-java-2.3.0.jar"/>
 		<pathelement location="${ooiLibsBase}/rabbitmq-client.jar"/>
 	</path>
 
