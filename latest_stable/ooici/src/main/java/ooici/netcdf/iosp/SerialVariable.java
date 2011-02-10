@@ -13,7 +13,9 @@ import ucar.ma2.DataType;
 /**
  *
  * @author cmueller
+ * @deprecated replaced by ion-object implementation
  */
+@Deprecated
 public class SerialVariable implements Serializable {
 
     private String name;

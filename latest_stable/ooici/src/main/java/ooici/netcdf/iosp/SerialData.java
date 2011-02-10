@@ -11,7 +11,9 @@ import java.io.Serializable;
 /**
  *
  * @author cmueller
+ * @deprecated replaced by ion-object implementation
  */
+@Deprecated
 public class SerialData implements Serializable {
 
     private String sData;

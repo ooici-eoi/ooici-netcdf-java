@@ -10,7 +10,9 @@ import java.io.Serializable;
 /**
  *
  * @author cmueller
+ * @deprecated replaced by ion-object implementation
  */
+@Deprecated
 public class SerialDimension implements Serializable {
 
     private String name;
