@@ -4,23 +4,39 @@
  */
 package ooici.netcdf.iosp;
 
+import com.google.protobuf.ByteString;
+import com.google.protobuf.CodedInputStream;
+import com.google.protobuf.InvalidProtocolBufferException;
 import com.rabbitmq.client.AMQP;
+import ion.core.messaging.MessagingName;
 import ion.core.messaging.MsgBrokerClient;
-import java.io.FileNotFoundException;
+import ion.core.utils.GPBWrapper;
+import ion.core.utils.StructureManager;
 import java.io.IOException;
 import java.nio.channels.WritableByteChannel;
+import java.util.HashMap;
 import java.util.List;
+import net.ooici.cdm.syntactic.Cdmarray;
+import net.ooici.cdm.syntactic.Cdmattribute;
+import net.ooici.cdm.syntactic.Cdmdatatype;
+import net.ooici.cdm.syntactic.Cdmdimension;
+import net.ooici.cdm.syntactic.Cdmgroup;
+import net.ooici.cdm.syntactic.Cdmvariable;
+import net.ooici.core.container.Container;
+import net.ooici.core.link.Link;
+import net.ooici.core.type.Type;
+import net.ooici.data.cdm.Cdmdataset;
 import ucar.ma2.Array;
 import ucar.ma2.InvalidRangeException;
 import ucar.ma2.Section;
 import ucar.ma2.StructureDataIterator;
 import ucar.nc2.Attribute;
+import ucar.nc2.Dimension;
 import ucar.nc2.NetcdfFile;
 import ucar.nc2.ParsedSectionSpec;
 import ucar.nc2.Structure;
 import ucar.nc2.Variable;
 import ucar.nc2.iosp.IospHelper;
-import ooici.netcdf.iosp.messaging.AttributeStore;
 import ucar.nc2.util.CancelTask;
 import ucar.unidata.io.RandomAccessFile;
 
@@ -36,19 +52,25 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
 
     private static org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OOICIiosp.class);
     private NetcdfFile ncfile;
-    private String uuid;
-    private static String ooiciServer;
-    private static String ooiciExchange;
-    private static String ooiciSysname;
+    private String datasetID;
+    private static String ooiciServer = "localhost";
+    private static String ooiciExchange = "eoitest";
+    private static String ooiciService = "eoi_ingest";
+    private static String ooiciTopic = "magnet.topic";
     private NetcdfFile tempnc;
     private MsgBrokerClient brokercl = null;
-    private AttributeStore store = null;
+    private ion.core.messaging.MessagingName ooiToName;
+    private ion.core.messaging.MessagingName ooiMyName;
+    private String myQueue;
+    private StructureManager structManager;
+    private static HashMap<ByteString, Container.StructureElement> elementMap;
 
-    public static boolean init(java.util.Properties props) {
+    public static boolean init(java.util.HashMap<String, String> connInfo) {
         boolean ret = false;
-        ooiciServer = props.getProperty("server", "localhost");
-        ooiciExchange = props.getProperty("exchange", "magnet.topic");
-        ooiciSysname = props.getProperty("sysname", "localhost");
+        ooiciServer = connInfo.get("server");
+        ooiciExchange = connInfo.get("exchange");
+        ooiciService = connInfo.get("service");
+        ooiciTopic = connInfo.get("topic");
 
         ret = true;
         return ret;
@@ -66,99 +88,112 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
         /**
          * Open the connection to OOI-CI, register data objects as necessary, attach the broker
          */
-        brokercl = new MsgBrokerClient(ooiciServer, AMQP.PROTOCOL.PORT, ooiciExchange);
+        ooiToName = new MessagingName(ooiciExchange, ooiciService);
+        ooiMyName = MessagingName.generateUniqueName();
+        brokercl = new MsgBrokerClient(ooiciServer, AMQP.PROTOCOL.PORT, ooiciTopic);
         brokercl.attach();
-
-        /* make attstore - TODO: temporary - to be replaced by data registry */
-        store = new AttributeStore(ooiciSysname, brokercl);
+        myQueue = brokercl.declareQueue(null);
+        brokercl.bindQueue(myQueue, ooiMyName, null);
+        brokercl.attachConsumer(myQueue);
 
         /* Set local variables and prepare ncfile object with all metadata: dimensions, variables, attributes, etc */
         this.ncfile = ncfile;
-        this.uuid = raf.getLocation().substring(6);//trim the "ooici:" from the front to obtain the UUID
+        this.datasetID = raf.getLocation().substring(6);//trim the "ooici:" from the front to obtain the UUID
 
         buildFromMessages();
 
-        this.ncfile.setTitle(uuid);
-        this.ncfile.setId(uuid);
+        this.ncfile.setTitle(datasetID);
+        this.ncfile.setId(datasetID);
 
         this.ncfile.finish();
     }
 
     private void buildFromMessages() throws IOException {
-        try {
-            // dimensions
-            List<String> ret = store.query(uuid + ":dim:.+");
-            String sdat;
-            for (String s : ret) {
-                sdat = store.get(s);
-                ncfile.addDimension(null, ((SerialDimension) IospUtils.deserialize(sdat)).getNcDimension());
+        ion.core.messaging.IonMessage msg = getResource(datasetID);
+        String status = msg.getIonHeaders().get("status").toString();
+        if (status.equalsIgnoreCase("ok")) {
+            if (msg.getContent() instanceof byte[]) {
+                CodedInputStream cis = CodedInputStream.newInstance((byte[]) msg.getContent());
+                Container.Structure struct = Container.Structure.parseFrom(cis);
+
+                elementMap = new HashMap<ByteString, Container.StructureElement>();
+                for (Container.StructureElement se : struct.getItemsList()) {
+                    elementMap.put(se.getKey(), se);
+                }
+
+                Container.StructureElement headElm = struct.getHeads(0);
+                Type.GPBType gpbType = headElm.getType();
+
+                Cdmdataset.Dataset dataset = Cdmdataset.Dataset.parseFrom(headElm.getValue());
+                Container.StructureElement elm = getStructureElement(dataset.getRootGroup());
+                Cdmgroup.Group rootGroup = Cdmgroup.Group.parseFrom(elm.getValue());
+                for (Link.CASRef cref : rootGroup.getDimensionsList()) {
+                    ncfile.addDimension(null, getNcDimension(cref));
+                }
+                for (Link.CASRef cref : rootGroup.getAttributesList()) {
+                    ncfile.addAttribute(null, getNcAttribute(cref));
+                }
+                for (Link.CASRef cref : rootGroup.getVariablesList()) {
+                    try {
+                        ncfile.addVariable(null, getNcVariable(cref));
+                    } catch (InvalidRangeException ex) {
+                        throw new IOException("Error building variable, cannot continue", ex);
+                    }
+                }
             }
-            ret.clear();
-            ret = store.query(uuid + ":gatt:.+");
-            for (String s : ret) {
-                sdat = store.get(s);
-                ncfile.addAttribute(null, ((SerialAttribute) IospUtils.deserialize(sdat)).getNcAttribute());
-            }
-            ret.clear();
-            ret = store.query(uuid + ":var:.+");
-            for (String s : ret) {
-                sdat = store.get(s);
-                ncfile.addVariable(null, ((SerialVariable) IospUtils.deserialize(sdat)).getNcVariable(ncfile));
-            }
-            ret.clear();
-        } catch (FileNotFoundException ex) {
-            throw new IOException("Can't find serial file", ex);
-        } catch (ClassNotFoundException ex) {
-            throw new IOException("Can't find class", ex);
+        } else if (status.equalsIgnoreCase("error")) {
+            throw new IOException("Error receiving message: " + "something descriptive about what happened, from the msg");
         }
     }
 
     public Array readData(Variable v2, Section section) throws IOException, InvalidRangeException {
-        /* Data seperate from variable - go get it! */
-        try {
-            String key = uuid + ":data:" + v2.getName();
-            String dstr = store.get(key);
-            SerialData sd;
-            Array arr = null;
-            if (dstr != null) {
-                sd = (SerialData) IospUtils.deserialize(dstr);
-                arr = sd.getNcArray();
-            } else {
-                /* The data for this variable is indexed!! */
-                /* Determine which indexes to acquire */
-                ucar.ma2.Range outer = section.getRange(0);
-                ucar.ma2.Range.Iterator iter = outer.getIterator();
-                String key2;
-                Array tarr;
-                int idx = 0;
-                int fs = 1;
-                while(iter.hasNext()) {
-                    key2 = key + ":idx=" + iter.next();
-                    dstr = store.get(key2);
-                    sd = (SerialData) IospUtils.deserialize(dstr);
-                    tarr = sd.getNcArray();
-                    /* If the array is null, make it */
-                    if(arr == null) {
-                        int[] shape = tarr.getShape();
-                        for(int i : shape) {
-                            fs *= i;
-                        }
-                        shape[0] = outer.length();
-                        arr = Array.factory(v2.getDataType(), shape);
-                    }
-                    /* Fill the appropriate section of the array */
-                    Array.arraycopy(tarr, 0, arr, (fs * idx) , (int)tarr.getSize());
-                    idx++;
-                }
+        throw new UnsupportedOperationException();
 
-            }
-            if(arr != null) {
-                return arr.sectionNoReduce(section.getRanges());
-            }
-            return null;
-        } catch (ClassNotFoundException ex) {
-            throw new IOException("Could not deserialize data", ex);
-        }
+        /* Data seperate from variable - go get it! */
+//        try {
+//            String key = datasetID + ":data:" + v2.getName();
+//            String dstr = store.get(key);
+//            SerialData sd;
+//            Array arr = null;
+//            if (dstr != null) {
+//                sd = (SerialData) IospUtils.deserialize(dstr);
+//                arr = sd.getNcArray();
+//            } else {
+//                /* The data for this variable is indexed!! */
+//                /* Determine which indexes to acquire */
+//                ucar.ma2.Range outer = section.getRange(0);
+//                ucar.ma2.Range.Iterator iter = outer.getIterator();
+//                String key2;
+//                Array tarr;
+//                int idx = 0;
+//                int fs = 1;
+//                while (iter.hasNext()) {
+//                    key2 = key + ":idx=" + iter.next();
+//                    dstr = store.get(key2);
+//                    sd = (SerialData) IospUtils.deserialize(dstr);
+//                    tarr = sd.getNcArray();
+//                    /* If the array is null, make it */
+//                    if (arr == null) {
+//                        int[] shape = tarr.getShape();
+//                        for (int i : shape) {
+//                            fs *= i;
+//                        }
+//                        shape[0] = outer.length();
+//                        arr = Array.factory(v2.getDataType(), shape);
+//                    }
+//                    /* Fill the appropriate section of the array */
+//                    Array.arraycopy(tarr, 0, arr, (fs * idx), (int) tarr.getSize());
+//                    idx++;
+//                }
+//
+//            }
+//            if (arr != null) {
+//                return arr.sectionNoReduce(section.getRanges());
+//            }
+//            return null;
+//        } catch (ClassNotFoundException ex) {
+//            throw new IOException("Could not deserialize data", ex);
+//        }
     }
 
     public long readToByteChannel(Variable v2, Section section, WritableByteChannel channel) throws IOException, InvalidRangeException {
@@ -182,9 +217,9 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
             brokercl.detach();
             brokercl = null;
         }
-        if (store != null) {
-            store = null;
-        }
+//        if (store != null) {
+//            store = null;
+//        }
         if (tempnc != null) {
             tempnc.close();
             tempnc = null;
@@ -250,4 +285,298 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
     public void flush() throws IOException {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    // <editor-fold defaultstate="collapsed" desc="OOI-CI Helper Methods">
+    private ion.core.messaging.IonMessage getResource(String ooiResourceID) {
+        brokercl.createSendMessage(ooiMyName, ooiToName, "retrieve", ooiResourceID);
+        return brokercl.consumeMessage(myQueue);
+    }
+
+    private Container.StructureElement getStructureElement(Link.CASRef ref) throws IOException {
+        return getStructureElement(ref.getKey());
+    }
+
+    private Container.StructureElement getStructureElement(ByteString key) throws IOException {
+        Container.StructureElement ret = elementMap.get(key);
+//        if (ret == null) {
+//            ion.core.messaging.IonMessage msg = getResource(key);
+//            String status = msg.getIonHeaders().get("status").toString();
+//            if (status.equalsIgnoreCase("ok")) {
+//                if (msg.getContent() instanceof byte[]) {
+//                    CodedInputStream cis = CodedInputStream.newInstance((byte[]) msg.getContent());
+//                    Container.Structure struct = Container.Structure.parseFrom(cis);
+//
+//                    elementMap = new HashMap<ByteString, Container.StructureElement>();
+//                    for (Container.StructureElement se : struct.getItemsList()) {
+//                        elementMap.put(se.getKey(), se);
+//                    }
+//                }
+//            } else if (status.equalsIgnoreCase("error")) {
+//                throw new IOException("Error receiving message: " + "something descriptive about what happened, from the msg");
+//            }
+//            ret = elementMap.get(key);
+//        }
+        return ret;
+    }
+
+    private Dimension getNcDimension(Link.CASRef ref) throws IOException {
+        Container.StructureElement elm = getStructureElement(ref);
+        Cdmdimension.Dimension ooiDim = Cdmdimension.Dimension.parseFrom(elm.getValue());
+        return new Dimension(ooiDim.getName(), (int) ooiDim.getLength());
+    }
+
+    private Attribute getNcAttribute(Link.CASRef ref) throws InvalidProtocolBufferException, IOException {
+        Container.StructureElement elm = getStructureElement(ref);
+        Cdmattribute.Attribute ooiAtt = Cdmattribute.Attribute.parseFrom(elm.getValue());
+        Attribute ncAtt = null;
+        int cnt = 0;
+        Container.StructureElement arrElm = getStructureElement(ooiAtt.getArray());
+        switch (ooiAtt.getDataType()) {
+            case STRING:
+                Cdmarray.stringArray sarr = Cdmarray.stringArray.parseFrom(arrElm.getValue());
+                if (sarr.getValueCount() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), sarr.getValue(0));
+                } else {
+                    /* Is this possible?? */
+                }
+                break;
+            case BYTE:
+                Cdmarray.int32Array i32arrB = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayByte barr = new ucar.ma2.ArrayByte(new int[]{i32arrB.getValueCount()});
+                for (Integer val : i32arrB.getValueList()) {
+                    barr.setByte(cnt++, val.byteValue());
+                }
+                if (barr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), barr.getByte(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), barr);
+                }
+                break;
+            case SHORT:
+                Cdmarray.int32Array i32arrS = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayShort sharr = new ucar.ma2.ArrayShort(new int[]{i32arrS.getValueCount()});
+                for (Integer val : i32arrS.getValueList()) {
+                    sharr.setShort(cnt++, val.shortValue());
+                }
+                if (sharr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), sharr.getShort(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), sharr);
+                }
+                break;
+            case INT:
+                Cdmarray.int32Array i32arr = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayInt iarr = new ucar.ma2.ArrayInt(new int[]{i32arr.getValueCount()});
+                for (Integer val : i32arr.getValueList()) {
+                    iarr.setInt(cnt++, val);
+                }
+                if (iarr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), iarr.getInt(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), iarr);
+                }
+                break;
+            case LONG:
+                Cdmarray.int64Array i64arr = Cdmarray.int64Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayLong larr = new ucar.ma2.ArrayLong(new int[]{i64arr.getValueCount()});
+                for (Long val : i64arr.getValueList()) {
+                    larr.setLong(cnt++, val);
+                }
+                if (larr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), larr.getLong(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), larr);
+                }
+                break;
+            case FLOAT:
+                Cdmarray.f32Array f32arr = Cdmarray.f32Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayFloat farr = new ucar.ma2.ArrayFloat(new int[]{f32arr.getValueCount()});
+                for (Float val : f32arr.getValueList()) {
+                    farr.setFloat(cnt++, val);
+                }
+                if (farr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), farr.getFloat(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), farr);
+                }
+                break;
+            case DOUBLE:
+                Cdmarray.f64Array f64arr = Cdmarray.f64Array.parseFrom(arrElm.getValue());
+                ucar.ma2.ArrayDouble darr = new ucar.ma2.ArrayDouble(new int[]{f64arr.getValueCount()});
+                for (Double val : f64arr.getValueList()) {
+                    darr.setDouble(cnt++, val);
+                }
+                if (darr.getSize() == 1) {
+                    ncAtt = new Attribute(ooiAtt.getName(), darr.getDouble(0));
+                } else {
+                    ncAtt = new Attribute(ooiAtt.getName(), darr);
+                }
+                break;
+            /* TODO: Complete for other data types*/
+        }
+
+        return ncAtt;
+    }
+
+    private Variable getNcVariable(Link.CASRef ref) throws InvalidProtocolBufferException, InvalidRangeException, IOException {
+        Container.StructureElement varElm = getStructureElement(ref);
+        Cdmvariable.Variable ooiVar = Cdmvariable.Variable.parseFrom(varElm.getValue());
+        Variable ncVar = new Variable(ncfile, null, null, ooiVar.getName());
+        ncVar.setDataType(IospUtils.getNcDataType(ooiVar.getDataType()));
+        ncVar.setDimensions(getDimString(ooiVar.getShapeList()));
+        ncVar.resetShape();
+        for (Link.CASRef vAttRef : ooiVar.getAttributesList()) {
+            ncVar.addAttribute(getNcAttribute(vAttRef));
+        }
+
+        int[] shape = new int[ooiVar.getShapeCount()];
+        int i = 0;
+        for (Link.CASRef vRef : ooiVar.getShapeList()) {
+            Cdmdimension.Dimension dim = Cdmdimension.Dimension.parseFrom(elementMap.get(vRef.getKey()).getValue());
+            shape[i++] = (int) dim.getLength();
+        }
+
+        /* TODO: add variable data...NOTE: this would actually happen "on demand" - can't write the file without it... */
+        for (Link.CASRef vRef : ooiVar.getContentList()) {
+            ucar.ma2.Array arr = getNcArray(vRef, ooiVar.getDataType(), shape);
+            ncVar.setCachedData(arr);
+        }
+
+        return ncVar;
+    }
+
+    private ucar.ma2.Array getNcArray(Link.CASRef ref, Cdmdatatype.DataType dt, int[] shape) throws InvalidProtocolBufferException, InvalidRangeException {
+        Cdmvariable.BoundedArray bndArr = Cdmvariable.BoundedArray.parseFrom(elementMap.get(ref.getKey()).getValue());
+        ByteString byteString = elementMap.get(bndArr.getNdarray().getKey()).getValue();
+        List<Cdmvariable.BoundedArray.Bounds> bndsList = bndArr.getBoundsList();
+
+        boolean isScalar = shape.length == 0;
+
+        ucar.ma2.Section sec = new ucar.ma2.Section();
+        for (Cdmvariable.BoundedArray.Bounds bnds : bndsList) {
+            sec.appendRange((int) bnds.getOrigin(), (int) (bnds.getOrigin() + bnds.getSize() - 1));
+        }
+        ucar.ma2.Section.Iterator secIter = sec.getIterator(sec.getShape());
+        ucar.ma2.Array arr = null;
+        int cnt = 0;
+        switch (dt) {
+//            case STRING:
+//                Cdmarray.stringArray sarr = Cdmarray.stringArray.parseFrom(elementMap.get(ooiAtt.getArray().getKey()).getValue());
+//                if (sarr.getValueCount() == 1) {
+//                    ncAtt = new Attribute(ooiAtt.getName(), sarr.getValue(0));
+//                } else {
+//                    /* Is this possible?? */
+//                }
+//                break;
+            case BYTE:
+                Cdmarray.int32Array i32arrB = Cdmarray.int32Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayByte.D0();
+                    arr.setByte(arr.getIndex(), i32arrB.getValueList().get(0).byteValue());
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setLong(secIter.next(), Integer.valueOf(i32arrB.getValue(cnt++)).longValue());
+                    }
+//                    arr = new ucar.ma2.ArrayByte(new int[]{i32arrB.getValueCount()});
+//                    for (Integer val : i32arrB.getValueList()) {
+//                        arr.setByte(cnt++, val.byteValue());
+//                    }
+                }
+                break;
+            case SHORT:
+                Cdmarray.int32Array i32arrS = Cdmarray.int32Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayShort.D0();
+                    arr.setShort(arr.getIndex(), i32arrS.getValueList().get(0).shortValue());
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setShort(secIter.next(), Integer.valueOf(i32arrS.getValue(cnt++)).shortValue());
+                    }
+//                    arr = new ucar.ma2.ArrayShort(new int[]{i32arrS.getValueCount()});
+//                    for (Integer val : i32arrS.getValueList()) {
+//                        arr.setShort(cnt++, val.shortValue());
+//                    }
+                }
+                break;
+            case INT:
+                Cdmarray.int32Array i32arr = Cdmarray.int32Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayInt.D0();
+                    arr.setInt(arr.getIndex(), i32arr.getValue(0));
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setInt(secIter.next(), i32arr.getValue(cnt++));
+                    }
+//                    arr = new ucar.ma2.ArrayInt(new int[]{i32arr.getValueCount()});
+//                    for (Integer val : i32arr.getValueList()) {
+//                        arr.setInt(arr.getIndex().set(cnt), val);
+//                    }
+                }
+                break;
+            case LONG:
+                Cdmarray.int64Array i64arr = Cdmarray.int64Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayLong.D0();
+                    arr.setLong(arr.getIndex(), i64arr.getValue(0));
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setLong(secIter.next(), i64arr.getValue(cnt++));
+                    }
+//                    arr = new ucar.ma2.ArrayLong(new int[]{i64arr.getValueCount()});
+//                    for (Long val : i64arr.getValueList()) {
+//                        arr.setLong(cnt++, val);
+//                    }
+                }
+                break;
+            case FLOAT:
+                Cdmarray.f32Array f32arr = Cdmarray.f32Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayFloat.D0();
+                    arr.setFloat(arr.getIndex(), f32arr.getValue(0));
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setFloat(secIter.next(), f32arr.getValue(cnt++));
+                    }
+//                    arr = new ucar.ma2.ArrayFloat(new int[]{f32arr.getValueCount()});
+//                    for (Float val : f32arr.getValueList()) {
+//                        arr.setFloat(cnt++, val);
+//                    }
+                }
+                break;
+            case DOUBLE:
+                Cdmarray.f64Array f64arr = Cdmarray.f64Array.parseFrom(byteString);
+                if (isScalar) {
+                    arr = new ucar.ma2.ArrayDouble.D0();
+                    arr.setDouble(arr.getIndex(), f64arr.getValue(0));
+                } else {
+                    arr = ucar.ma2.Array.factory(IospUtils.getNcDataType(dt), shape);
+                    while (secIter.hasNext()) {
+                        arr.setDouble(secIter.next(), f64arr.getValue(cnt++));
+                    }
+//                    arr = new ucar.ma2.ArrayDouble(new int[]{f64arr.getValueCount()});
+//                    for (Double val : f64arr.getValueList()) {
+//                        arr.setDouble(cnt++, val);
+//                    }
+                }
+                break;
+            /* TODO: Complete for other data types*/
+        }
+
+        return arr;
+    }
+
+    private static String getDimString(List<Link.CASRef> shapeList) throws InvalidProtocolBufferException {
+        StringBuilder dimString = new StringBuilder();
+        for (Link.CASRef shpRef : shapeList) {
+            dimString.append(Cdmdimension.Dimension.parseFrom(elementMap.get(shpRef.getKey()).getValue()).getName());
+            dimString.append(" ");
+        }
+        return dimString.toString().trim();
+    }
+    // </editor-fold>
 }
