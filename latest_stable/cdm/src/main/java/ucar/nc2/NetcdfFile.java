@@ -248,6 +248,11 @@ public class NetcdfFile implements ucar.nc2.util.cache.FileCacheable {
     } catch (Throwable e) {
       if (loadWarnings) log.info("Cant load class: " + e);
     }
+    try {
+      registerIOProvider("ooici.netcdf.iosp.OOICIiosp");
+    } catch (Throwable e) {
+      if (loadWarnings) log.info("Cant load class: " + e);
+    }
 
     userLoads = true;
   }
