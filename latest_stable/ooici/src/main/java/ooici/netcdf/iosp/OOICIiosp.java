@@ -4,8 +4,6 @@
  */
 package ooici.netcdf.iosp;
 
-import com.google.protobuf.ByteString;
-import com.google.protobuf.CodedInputStream;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.rabbitmq.client.AMQP;
 import ion.core.messaging.MessagingName;
@@ -22,9 +20,7 @@ import net.ooici.cdm.syntactic.Cdmdatatype;
 import net.ooici.cdm.syntactic.Cdmdimension;
 import net.ooici.cdm.syntactic.Cdmgroup;
 import net.ooici.cdm.syntactic.Cdmvariable;
-import net.ooici.core.container.Container;
 import net.ooici.core.link.Link;
-import net.ooici.core.type.Type;
 import net.ooici.data.cdm.Cdmdataset;
 import ucar.ma2.Array;
 import ucar.ma2.InvalidRangeException;
@@ -63,7 +59,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
     private ion.core.messaging.MessagingName ooiMyName;
     private String myQueue;
     private StructureManager structManager;
-    private static HashMap<ByteString, Container.StructureElement> elementMap;
+    private HashMap<Variable, Cdmvariable.Variable> _varMap;
 
     public static boolean init(java.util.HashMap<String, String> connInfo) {
         boolean ret = false;
@@ -113,29 +109,25 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
         String status = msg.getIonHeaders().get("status").toString();
         if (status.equalsIgnoreCase("ok")) {
             if (msg.getContent() instanceof byte[]) {
-                CodedInputStream cis = CodedInputStream.newInstance((byte[]) msg.getContent());
-                Container.Structure struct = Container.Structure.parseFrom(cis);
+                structManager = StructureManager.Factory(msg);
+                GPBWrapper<Cdmdataset.Dataset> dsWrap = structManager.getObjectWrapper(structManager.getHeadIds().get(0));
+                Cdmdataset.Dataset dataset = dsWrap.getObjectValue();
 
-                elementMap = new HashMap<ByteString, Container.StructureElement>();
-                for (Container.StructureElement se : struct.getItemsList()) {
-                    elementMap.put(se.getKey(), se);
-                }
-
-                Container.StructureElement headElm = struct.getHeads(0);
-                Type.GPBType gpbType = headElm.getType();
-
-                Cdmdataset.Dataset dataset = Cdmdataset.Dataset.parseFrom(headElm.getValue());
-                Container.StructureElement elm = getStructureElement(dataset.getRootGroup());
-                Cdmgroup.Group rootGroup = Cdmgroup.Group.parseFrom(elm.getValue());
-                for (Link.CASRef cref : rootGroup.getDimensionsList()) {
+                GPBWrapper<Cdmgroup.Group> rootWrap = structManager.getObjectWrapper(dataset.getRootGroup());
+                Cdmgroup.Group rootGroup = rootWrap.getObjectValue();
+                for(Link.CASRef cref : rootGroup.getDimensionsList()) {
                     ncfile.addDimension(null, getNcDimension(cref));
                 }
                 for (Link.CASRef cref : rootGroup.getAttributesList()) {
                     ncfile.addAttribute(null, getNcAttribute(cref));
                 }
+                /* Initialize the varMap */
+                _varMap = new HashMap<Variable, Cdmvariable.Variable>();
+                /* Process the variables */
                 for (Link.CASRef cref : rootGroup.getVariablesList()) {
                     try {
-                        ncfile.addVariable(null, getNcVariable(cref));
+                        Variable v = getNcVariable(cref);
+                        ncfile.addVariable(null, v);
                     } catch (InvalidRangeException ex) {
                         throw new IOException("Error building variable, cannot continue", ex);
                     }
@@ -147,7 +139,26 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
     }
 
     public Array readData(Variable v2, Section section) throws IOException, InvalidRangeException {
-        throw new UnsupportedOperationException();
+        Cdmvariable.Variable ooiVar = _varMap.get(v2);
+
+        int[] shape = new int[ooiVar.getShapeCount()];
+        int i = 0;
+        for (Link.CASRef vRef : ooiVar.getShapeList()) {
+            Cdmdimension.Dimension dim = (Cdmdimension.Dimension) structManager.getObjectWrapper(vRef).getObjectValue();
+            shape[i++] = (int) dim.getLength();
+        }
+        ucar.ma2.Array arr = null;
+        for (Link.CASRef vRef : ooiVar.getContentList()) {
+            arr = getNcArray(vRef, ooiVar.getDataType(), shape);
+            v2.setCachedData(arr);
+        }
+        if (arr != null) {
+            return arr.sectionNoReduce(section.getRanges());
+        }
+        return arr;
+
+//        throw new UnsupportedOperationException();
+
 
         /* Data seperate from variable - go get it! */
 //        try {
@@ -217,9 +228,6 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
             brokercl.detach();
             brokercl = null;
         }
-//        if (store != null) {
-//            store = null;
-//        }
         if (tempnc != null) {
             tempnc.close();
             tempnc = null;
@@ -292,48 +300,21 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
         return brokercl.consumeMessage(myQueue);
     }
 
-    private Container.StructureElement getStructureElement(Link.CASRef ref) throws IOException {
-        return getStructureElement(ref.getKey());
-    }
-
-    private Container.StructureElement getStructureElement(ByteString key) throws IOException {
-        Container.StructureElement ret = elementMap.get(key);
-//        if (ret == null) {
-//            ion.core.messaging.IonMessage msg = getResource(key);
-//            String status = msg.getIonHeaders().get("status").toString();
-//            if (status.equalsIgnoreCase("ok")) {
-//                if (msg.getContent() instanceof byte[]) {
-//                    CodedInputStream cis = CodedInputStream.newInstance((byte[]) msg.getContent());
-//                    Container.Structure struct = Container.Structure.parseFrom(cis);
-//
-//                    elementMap = new HashMap<ByteString, Container.StructureElement>();
-//                    for (Container.StructureElement se : struct.getItemsList()) {
-//                        elementMap.put(se.getKey(), se);
-//                    }
-//                }
-//            } else if (status.equalsIgnoreCase("error")) {
-//                throw new IOException("Error receiving message: " + "something descriptive about what happened, from the msg");
-//            }
-//            ret = elementMap.get(key);
-//        }
-        return ret;
-    }
-
-    private Dimension getNcDimension(Link.CASRef ref) throws IOException {
-        Container.StructureElement elm = getStructureElement(ref);
-        Cdmdimension.Dimension ooiDim = Cdmdimension.Dimension.parseFrom(elm.getValue());
+    private Dimension getNcDimension(Link.CASRef ref) {
+        GPBWrapper<Cdmdimension.Dimension> dimWrap = structManager.getObjectWrapper(ref);
+        Cdmdimension.Dimension ooiDim = dimWrap.getObjectValue();
         return new Dimension(ooiDim.getName(), (int) ooiDim.getLength());
     }
 
-    private Attribute getNcAttribute(Link.CASRef ref) throws InvalidProtocolBufferException, IOException {
-        Container.StructureElement elm = getStructureElement(ref);
-        Cdmattribute.Attribute ooiAtt = Cdmattribute.Attribute.parseFrom(elm.getValue());
+    private Attribute getNcAttribute(Link.CASRef ref) {
+        GPBWrapper<Cdmattribute.Attribute> attWrap = structManager.getObjectWrapper(ref);
+        Cdmattribute.Attribute ooiAtt = attWrap.getObjectValue();
         Attribute ncAtt = null;
         int cnt = 0;
-        Container.StructureElement arrElm = getStructureElement(ooiAtt.getArray());
-        switch (ooiAtt.getDataType()) {
+        GPBWrapper arrWrap = structManager.getObjectWrapper(ooiAtt.getArray());
+        switch(ooiAtt.getDataType()) {
             case STRING:
-                Cdmarray.stringArray sarr = Cdmarray.stringArray.parseFrom(arrElm.getValue());
+                Cdmarray.stringArray sarr = (Cdmarray.stringArray) arrWrap.getObjectValue();
                 if (sarr.getValueCount() == 1) {
                     ncAtt = new Attribute(ooiAtt.getName(), sarr.getValue(0));
                 } else {
@@ -341,7 +322,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case BYTE:
-                Cdmarray.int32Array i32arrB = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                Cdmarray.int32Array i32arrB = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayByte barr = new ucar.ma2.ArrayByte(new int[]{i32arrB.getValueCount()});
                 for (Integer val : i32arrB.getValueList()) {
                     barr.setByte(cnt++, val.byteValue());
@@ -353,7 +334,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case SHORT:
-                Cdmarray.int32Array i32arrS = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                Cdmarray.int32Array i32arrS = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayShort sharr = new ucar.ma2.ArrayShort(new int[]{i32arrS.getValueCount()});
                 for (Integer val : i32arrS.getValueList()) {
                     sharr.setShort(cnt++, val.shortValue());
@@ -365,7 +346,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case INT:
-                Cdmarray.int32Array i32arr = Cdmarray.int32Array.parseFrom(arrElm.getValue());
+                Cdmarray.int32Array i32arr = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayInt iarr = new ucar.ma2.ArrayInt(new int[]{i32arr.getValueCount()});
                 for (Integer val : i32arr.getValueList()) {
                     iarr.setInt(cnt++, val);
@@ -377,7 +358,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case LONG:
-                Cdmarray.int64Array i64arr = Cdmarray.int64Array.parseFrom(arrElm.getValue());
+                Cdmarray.int64Array i64arr = (Cdmarray.int64Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayLong larr = new ucar.ma2.ArrayLong(new int[]{i64arr.getValueCount()});
                 for (Long val : i64arr.getValueList()) {
                     larr.setLong(cnt++, val);
@@ -389,7 +370,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case FLOAT:
-                Cdmarray.f32Array f32arr = Cdmarray.f32Array.parseFrom(arrElm.getValue());
+                Cdmarray.f32Array f32arr = (Cdmarray.f32Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayFloat farr = new ucar.ma2.ArrayFloat(new int[]{f32arr.getValueCount()});
                 for (Float val : f32arr.getValueList()) {
                     farr.setFloat(cnt++, val);
@@ -401,7 +382,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case DOUBLE:
-                Cdmarray.f64Array f64arr = Cdmarray.f64Array.parseFrom(arrElm.getValue());
+                Cdmarray.f64Array f64arr = (Cdmarray.f64Array) arrWrap.getObjectValue();
                 ucar.ma2.ArrayDouble darr = new ucar.ma2.ArrayDouble(new int[]{f64arr.getValueCount()});
                 for (Double val : f64arr.getValueList()) {
                     darr.setDouble(cnt++, val);
@@ -417,10 +398,10 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
 
         return ncAtt;
     }
-
+        
     private Variable getNcVariable(Link.CASRef ref) throws InvalidProtocolBufferException, InvalidRangeException, IOException {
-        Container.StructureElement varElm = getStructureElement(ref);
-        Cdmvariable.Variable ooiVar = Cdmvariable.Variable.parseFrom(varElm.getValue());
+        GPBWrapper<Cdmvariable.Variable> varWrap = structManager.getObjectWrapper(ref);
+        Cdmvariable.Variable ooiVar = varWrap.getObjectValue();
         Variable ncVar = new Variable(ncfile, null, null, ooiVar.getName());
         ncVar.setDataType(IospUtils.getNcDataType(ooiVar.getDataType()));
         ncVar.setDimensions(getDimString(ooiVar.getShapeList()));
@@ -428,26 +409,29 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
         for (Link.CASRef vAttRef : ooiVar.getAttributesList()) {
             ncVar.addAttribute(getNcAttribute(vAttRef));
         }
-
-        int[] shape = new int[ooiVar.getShapeCount()];
-        int i = 0;
-        for (Link.CASRef vRef : ooiVar.getShapeList()) {
-            Cdmdimension.Dimension dim = Cdmdimension.Dimension.parseFrom(elementMap.get(vRef.getKey()).getValue());
-            shape[i++] = (int) dim.getLength();
-        }
+//
+//        int[] shape = new int[ooiVar.getShapeCount()];
+//        int i = 0;
+//        for (Link.CASRef vRef : ooiVar.getShapeList()) {
+//            Cdmdimension.Dimension dim = (Cdmdimension.Dimension) structManager.getObjectWrapper(vRef).getObjectValue();
+//            shape[i++] = (int) dim.getLength();
+//        }
 
         /* TODO: add variable data...NOTE: this would actually happen "on demand" - can't write the file without it... */
-        for (Link.CASRef vRef : ooiVar.getContentList()) {
-            ucar.ma2.Array arr = getNcArray(vRef, ooiVar.getDataType(), shape);
-            ncVar.setCachedData(arr);
-        }
+//        for (Link.CASRef vRef : ooiVar.getContentList()) {
+//            _varMap.put(ncVar, vRef);
+//            ucar.ma2.Array arr = getNcArray(vRef, ooiVar.getDataType(), shape);
+//            ncVar.setCachedData(arr);
+//        }
 
+        _varMap.put(ncVar, ooiVar);
         return ncVar;
     }
 
     private ucar.ma2.Array getNcArray(Link.CASRef ref, Cdmdatatype.DataType dt, int[] shape) throws InvalidProtocolBufferException, InvalidRangeException {
-        Cdmvariable.BoundedArray bndArr = Cdmvariable.BoundedArray.parseFrom(elementMap.get(ref.getKey()).getValue());
-        ByteString byteString = elementMap.get(bndArr.getNdarray().getKey()).getValue();
+        GPBWrapper<Cdmvariable.BoundedArray> barrWrap = structManager.getObjectWrapper(ref);
+        Cdmvariable.BoundedArray bndArr = barrWrap.getObjectValue();
+        GPBWrapper arrWrap = structManager.getObjectWrapper(bndArr.getNdarray());
         List<Cdmvariable.BoundedArray.Bounds> bndsList = bndArr.getBoundsList();
 
         boolean isScalar = shape.length == 0;
@@ -469,7 +453,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
 //                }
 //                break;
             case BYTE:
-                Cdmarray.int32Array i32arrB = Cdmarray.int32Array.parseFrom(byteString);
+                Cdmarray.int32Array i32arrB = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayByte.D0();
                     arr.setByte(arr.getIndex(), i32arrB.getValueList().get(0).byteValue());
@@ -485,7 +469,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case SHORT:
-                Cdmarray.int32Array i32arrS = Cdmarray.int32Array.parseFrom(byteString);
+                Cdmarray.int32Array i32arrS = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayShort.D0();
                     arr.setShort(arr.getIndex(), i32arrS.getValueList().get(0).shortValue());
@@ -501,7 +485,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case INT:
-                Cdmarray.int32Array i32arr = Cdmarray.int32Array.parseFrom(byteString);
+                Cdmarray.int32Array i32arr = (Cdmarray.int32Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayInt.D0();
                     arr.setInt(arr.getIndex(), i32arr.getValue(0));
@@ -517,7 +501,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case LONG:
-                Cdmarray.int64Array i64arr = Cdmarray.int64Array.parseFrom(byteString);
+                Cdmarray.int64Array i64arr = (Cdmarray.int64Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayLong.D0();
                     arr.setLong(arr.getIndex(), i64arr.getValue(0));
@@ -533,7 +517,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case FLOAT:
-                Cdmarray.f32Array f32arr = Cdmarray.f32Array.parseFrom(byteString);
+                Cdmarray.f32Array f32arr = (Cdmarray.f32Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayFloat.D0();
                     arr.setFloat(arr.getIndex(), f32arr.getValue(0));
@@ -549,7 +533,7 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
                 }
                 break;
             case DOUBLE:
-                Cdmarray.f64Array f64arr = Cdmarray.f64Array.parseFrom(byteString);
+                Cdmarray.f64Array f64arr = (Cdmarray.f64Array) arrWrap.getObjectValue();
                 if (isScalar) {
                     arr = new ucar.ma2.ArrayDouble.D0();
                     arr.setDouble(arr.getIndex(), f64arr.getValue(0));
@@ -570,10 +554,10 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
         return arr;
     }
 
-    private static String getDimString(List<Link.CASRef> shapeList) throws InvalidProtocolBufferException {
+    private String getDimString(List<Link.CASRef> shapeList) throws InvalidProtocolBufferException {
         StringBuilder dimString = new StringBuilder();
         for (Link.CASRef shpRef : shapeList) {
-            dimString.append(Cdmdimension.Dimension.parseFrom(elementMap.get(shpRef.getKey()).getValue()).getName());
+            dimString.append(((Cdmdimension.Dimension)structManager.getObjectWrapper(shpRef).getObjectValue()).getName());
             dimString.append(" ");
         }
         return dimString.toString().trim();
