@@ -249,7 +249,15 @@ public class NetcdfFile implements ucar.nc2.util.cache.FileCacheable {
       if (loadWarnings) log.info("Cant load class: " + e);
     }
     try {
-      registerIOProvider("ooici.netcdf.iosp.OOICIiosp");
+        NetcdfFile.class.getClassLoader().loadClass("ooici.netcdf.iosp.IospExistCheck"); // only load if ooici.jar is present
+
+        /* Get OOICI connection information*/
+        java.util.HashMap<String, String> connInfo = ooici.netcdf.iosp.IospUtils.parseProperties(new java.io.File("ooici-conn.properties"));
+        
+        /* Initialize and register the OOICI IOSP */
+        ooici.netcdf.iosp.OOICIiosp.init(connInfo);
+        NetcdfFile.registerIOProvider(ooici.netcdf.iosp.OOICIiosp.class);
+//      registerIOProvider("ooici.netcdf.iosp.OOICIiosp");
     } catch (Throwable e) {
       if (loadWarnings) log.info("Cant load class: " + e);
     }
@@ -508,7 +516,7 @@ public class NetcdfFile implements ucar.nc2.util.cache.FileCacheable {
 
     } else if (uriString.startsWith("ooici:")) { // open through OOICI
       raf = new ooici.netcdf.io.OOICIRandomAccessFile(uriString);
-
+      
     } else {
       // get rid of crappy microsnot \ replace with happy /
       uriString = StringUtil.replace(uriString, '\\', "/");

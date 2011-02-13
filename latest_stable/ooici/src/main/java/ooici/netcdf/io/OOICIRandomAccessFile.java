@@ -21,4 +21,15 @@ public class OOICIRandomAccessFile extends ucar.unidata.io.RandomAccessFile {
     protected int read_(long pos, byte[] b, int offset, int len) throws IOException {
         return 0;
     }
+
+    /**
+     * Other IOSP's check the length of the 'file' object which is null for this
+     * IOSP - override to avoid NPE
+     * @return
+     * @throws IOException
+     */
+    @Override
+    public long length() throws IOException {
+        return 0;
+    }
 }

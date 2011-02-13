@@ -44,7 +44,7 @@ import ucar.unidata.io.RandomAccessFile;
  *
  * @author cmueller
  */
-public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp.IOServiceProviderWriter {
+public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider {
 
     private static org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OOICIiosp.class);
     private NetcdfFile ncfile;
@@ -53,7 +53,6 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
     private static String ooiciExchange = "eoitest";
     private static String ooiciService = "eoi_ingest";
     private static String ooiciTopic = "magnet.topic";
-    private NetcdfFile tempnc;
     private MsgBrokerClient brokercl = null;
     private ion.core.messaging.MessagingName ooiToName;
     private ion.core.messaging.MessagingName ooiMyName;
@@ -228,10 +227,6 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
             brokercl.detach();
             brokercl = null;
         }
-        if (tempnc != null) {
-            tempnc.close();
-            tempnc = null;
-        }
     }
 
     public boolean syncExtend() throws IOException {
@@ -266,32 +261,6 @@ public class OOICIiosp implements ucar.nc2.iosp.IOServiceProvider, ucar.nc2.iosp
 
     public String getFileTypeDescription() {
         return "OOI-CI distributed format";
-    }
-    /* Methods for Writing with this IOSP */
-    private boolean fill = false;
-
-    public void create(String filename, NetcdfFile ncfile, int extra, long preallocateSize, boolean largeFile) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    public void setFill(boolean fill) {
-        this.fill = fill;
-    }
-
-    public void writeData(Variable v2, Section section, Array values) throws IOException, InvalidRangeException {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    public boolean rewriteHeader(boolean largeFile) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    public void updateAttribute(Variable v2, Attribute att) throws IOException {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    public void flush() throws IOException {
-        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     // <editor-fold defaultstate="collapsed" desc="OOI-CI Helper Methods">
